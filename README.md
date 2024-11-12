@@ -10,21 +10,6 @@ The Peugeot 208 is a popular supermini car produced by the French automaker Peug
 
 - **Phase II, Second Generation (2019-present)**: The second-generation Peugeot 208 debuted in 2019 and adopted Peugeot’s new design language, featuring a bold grille, full LED lighting, and a more robust, sporty look. It introduced the fully electric **e-208** model, alongside traditional petrol and diesel options, reflecting Peugeot’s push towards electrification. The interior features Peugeot’s latest i-Cockpit design, with a digital instrument cluster, touchscreen interface, and advanced safety features.
 
-## Repository Structure
-
-The directory is organized as follows:
-```plaintext
-signalsets/
-  └── v3/
-      ├── default.json        # Default configuration (applies to Phase 2 and future models)
-      └── 2012-2019.json      # Override configuration for first-generation models (Phase 1, 2012-2019)
-```
-- **default.json**: Serves as the primary configuration, covering models from 2019 onwards (second generation), including the electric e-208. This file acts as the fallback configuration for all model years unless an override file specifies otherwise.
-
-- **2012-2019.json**: Override configuration specifically for first-generation models, allowing them to be distinct from the baseline configuration in `default.json`.
-
-If a new configuration is needed in the future (e.g., for model years 2027 and beyond), a new JSON file (e.g., `2019-2026.json`) can be created to lock in the 2019-2026 configuration, allowing `default.json` to reflect the latest specifications.
-
 ## Usage
 
 Each JSON file in the `v3/` directory corresponds to a specific model year range, with `default.json` providing the primary configuration. Override files, such as `2012-2019.json`, handle unique cases for specific model years or generations.
