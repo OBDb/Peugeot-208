@@ -1,0 +1,376 @@
+command_id: 6B4.694.22D410
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 6940562D4105BDD
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 45.93164
+- response: 6940562D4105BE9
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 45.95508
+- response: 6940562D4105BFB
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 45.99023
+- response: 6940562D4105C4A
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 46.14453
+- response: 6940562D4105CF1
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 46.4707
+- response: 6940562D4105CFD
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 46.49414
+- response: 6940562D4105CFF
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 46.49805
+- response: 6940562D4105D7D
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 46.74414
+- response: 6940562D4105DA7
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 46.82617
+- response: 6940562D4105DB7
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 46.85742
+- response: 6940562D4105DCA
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 46.89453
+- response: 6940562D4105DD7
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 46.91992
+- response: 6940562D4105DFF
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 46.99805
+- response: 6940562D4105E3D
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.11914
+- response: 6940562D4105E54
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.16406
+- response: 6940562D4105E65
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.19727
+- response: 6940562D4105E79
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.23633
+- response: 6940562D4105E81
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.25195
+- response: 6940562D4105EAB
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.33398
+- response: 6940562D4105EAD
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.33789
+- response: 6940562D4105EC8
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.39062
+- response: 6940562D4105EDD
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.43164
+- response: 6940562D4105EFB
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.49023
+- response: 6940562D4105EFE
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.49609
+- response: 6940562D4105F01
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.50195
+- response: 6940562D4105F0B
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.52148
+- response: 6940562D4105F0F
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.5293
+- response: 6940562D4105F18
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.54688
+- response: 6940562D4105F1C
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.55469
+- response: 6940562D4105F20
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.5625
+- response: 6940562D4105F26
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.57422
+- response: 6940562D4105F2B
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.58398
+- response: 6940562D4105F2E
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.58984
+- response: 6940562D4105F2F
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.5918
+- response: 6940562D4105F35
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.60352
+- response: 6940562D4105F38
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.60938
+- response: 6940562D4105FF2
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 47.97266
+- response: 6940562D4106060
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 48.1875
+- response: 6940562D41060CB
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 48.39648
+- response: 6940562D41060EC
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 48.46094
+- response: 6940562D410616B
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 48.70898
+- response: 6940562D4106198
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 48.79688
+- response: 6940562D41061EF
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 48.9668
+- response: 6940562D4106242
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 49.12891
+- response: 6940562D4106245
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 49.13477
+- response: 6940562D4106248
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 49.14062
+- response: 6940562D4106273
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 49.22461
+- response: 6940562D41062BC
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 49.36719
+- response: 6940562D410632B
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 49.58398
+- response: 6940562D41063C8
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 49.89062
+- response: 6940562D4106472
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.22266
+- response: 6940562D410648B
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.27148
+- response: 6940562D410648F
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.2793
+- response: 6940562D41064A1
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.31445
+- response: 6940562D41064BE
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.37109
+- response: 6940562D41064E1
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.43945
+- response: 6940562D41064EC
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.46094
+- response: 6940562D4106529
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.58008
+- response: 6940562D410652A
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.58203
+- response: 6940562D4106534
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.60156
+- response: 6940562D410653F
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.62305
+- response: 6940562D4106553
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.66211
+- response: 6940562D410655B
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.67773
+- response: 6940562D410656B
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.70898
+- response: 6940562D4106570
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.71875
+- response: 6940562D410657E
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.74609
+- response: 6940562D4106582
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.75391
+- response: 6940562D4106593
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.78711
+- response: 6940562D4106595
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.79102
+- response: 6940562D4106599
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.79883
+- response: 6940562D410659D
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.80664
+- response: 6940562D41065A1
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.81445
+- response: 6940562D41065A5
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.82227
+- response: 6940562D41065CF
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.9043
+- response: 6940562D41065E7
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.95117
+- response: 6940562D41065F0
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.96875
+- response: 6940562D41065FA
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 50.98828
+- response: 6940562D4106611
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 51.0332
+- response: 6940562D4106678
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 51.23438
+- response: 6940562D4106695
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 51.29102
+- response: 6940562D41066A5
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 51.32227
+- response: 6940562D410670C
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 51.52344
+- response: 6940562D41067E7
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 51.95117
+- response: 6940562D41068BD
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 52.36914
+- response: 6940562D4106925
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 52.57227
+- response: 6940562D4106960
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 52.6875
+- response: 6940562D41069C6
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 52.88672
+- response: 6940562D4106AD3
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 53.41211
+- response: 6940562D4106C9E
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 54.30859
+- response: 6940562D4106E44
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 55.13281
+- response: 6940562D4106FAC
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 55.83594
+- response: 6940562D41070F0
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 56.46875
+- response: 6940562D41071A9
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 56.83008
+- response: 6940562D4107245
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 57.13477
+- response: 6940562D410729D
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 57.30664
+- response: 6940562D41072E7
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 57.45117
+- response: 6940562D4107321
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 57.56445
+- response: 6940562D4107352
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 57.66016
+- response: 6940562D410739F
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 57.81055
+- response: 6940562D41073E8
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 57.95312
+- response: 6940562D4107428
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.07812
+- response: 6940562D410745A
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.17578
+- response: 6940562D410745F
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.18555
+- response: 6940562D4107474
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.22656
+- response: 6940562D41074BC
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.36719
+- response: 6940562D41074BE
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.37109
+- response: 6940562D41074FA
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.48828
+- response: 6940562D4107517
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.54492
+- response: 6940562D4107531
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.5957
+- response: 6940562D410755E
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.68359
+- response: 6940562D410756C
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.71094
+- response: 6940562D410758E
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.77734
+- response: 6940562D410759B
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.80273
+- response: 6940562D41075A0
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.8125
+- response: 6940562D41075AE
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.83984
+- response: 6940562D41075C9
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 58.89258
+- response: 6940562D4107637
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 59.10742
+- response: 6940562D4107C1D
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 62.05664
+- response: 6940562D4107C20
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 62.0625
+- response: 6940562D4107C21
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 62.06445
+- response: 6940562D4107C24
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 62.07031
+- response: 6940562D4107C25
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 62.07227
+- response: 6940562D4107C27
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 62.07617
+- response: 6940562D4107C28
+  expected_values:
+    PEUGEOT_HVBAT_SOC: 62.07812
