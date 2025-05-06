@@ -45,3 +45,9 @@ supported_commands_by_ecu:
   - 014D:MIL_TIME
   - 014E:CLR_TIME
   - 0165:GEAR_RCMD,GEAR_SUP,GPL_STAT,GPL_SUP,N/D_STAT,N/D_SUP,N/G_STAT,N/G_SUP,PTO_STAT_AUX,PTO_SUP
+unsupported_commands_by_ecu:
+  7F1:
+  - 7F1.2240B1
+  - 7F1.2240B2
+  - 7F1.2240B3
+  - 7F1.2240B4
