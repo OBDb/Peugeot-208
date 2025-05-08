@@ -2,15 +2,15 @@ command_id: 6B4.694.22D410
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 6940562D4104D92
+- response: 6940562D41024F5
   expected_values:
-    PEUGEOT_HVBAT_SOC: 38.78516
+    PEUGEOT_HVBAT_SOC: 18.47852
 - response: 6940562D4105CFF
   expected_values:
     PEUGEOT_HVBAT_SOC: 46.49805
 - response: 6940562D4106600
   expected_values:
     PEUGEOT_HVBAT_SOC: 51
-- response: 6940562D410A605
+- response: 6940562D410C800
   expected_values:
-    PEUGEOT_HVBAT_SOC: 83.00977
+    PEUGEOT_HVBAT_SOC: 100
