@@ -1,0 +1,32 @@
+command_id: 6B4.694.22D410
+test_cases:
+- expected_values:
+    PEUGEOT_HVBAT_SOC: 37.99609
+  response: 6940562D4104BFE
+- expected_values:
+    PEUGEOT_HVBAT_SOC: 38.07617
+  response: 6940562D4104C27
+- expected_values:
+    PEUGEOT_HVBAT_SOC: 38.23242
+  response: 6940562D4104C77
+- expected_values:
+    PEUGEOT_HVBAT_SOC: 38.23633
+  response: 6940562D4104C79
+- expected_values:
+    PEUGEOT_HVBAT_SOC: 38.24414
+  response: 6940562D4104C7D
+- expected_values:
+    PEUGEOT_HVBAT_SOC: 38.24609
+  response: 6940562D4104C7E
+- expected_values:
+    PEUGEOT_HVBAT_SOC: 38.24805
+  response: 6940562D4104C7F
+- expected_values:
+    PEUGEOT_HVBAT_SOC: 38.25
+  response: 6940562D4104C80
+- expected_values:
+    PEUGEOT_HVBAT_SOC: 38.25195
+  response: 6940562D4104C81
+- expected_values:
+    PEUGEOT_HVBAT_SOC: 38.25391
+  response: 6940562D4104C82
