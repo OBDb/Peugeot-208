@@ -1,0 +1,44 @@
+command_id: 7E0.010D
+test_cases:
+- expected_values:
+    VSS: 0
+  response: 7E803410D00FFFFFFFF
+- expected_values:
+    VSS: 18
+  response: 7E803410D12FFFFFFFF
+- expected_values:
+    VSS: 17
+  response: |-
+    > DAC7.C7.22013C
+    CAN ERROR
+    > DA18.18.22051A
+    CAN ERROR
+    > 7E1.7E9.225503|fc=1
+    NO DATA
+    > DAC7.C7.22012F
+    CAN ERROR
+    > DA18.18.22F158
+    CAN ERROR
+    > 7E1.7E9.225504|fc=1
+    NO DATA
+    > DAC7.C7.220124
+    CAN ERROR
+    > 740.4C0.22A0F2|fc=1
+    CAN ERROR
+    NO DATA
+    > DAC7.C7.220123
+    CAN ERROR
+    > DAC7.C7.22013F
+    CAN ERROR
+    > 742.22A022|fc=1
+    CAN ERROR
+    NO DATA
+    > 6B4.694.22D410
+    CAN ERROR
+    NO DATA
+    > DAC7.C7.220125
+    CAN ERROR
+    > DA30.30.222962
+    CAN ERROR
+    > 7DF.010D
+    7E803410D11FFFFFFFF
