@@ -1,0 +1,10 @@
+command_id: 7E0.0103
+test_cases:
+- expected_values:
+    FUELSYS1: OL
+    FUELSYS2: 'OFF'
+  response: '7E80441030100'
+- expected_values:
+    FUELSYS1: OL-Fault
+    FUELSYS2: 'OFF'
+  response: '7E80441030800'

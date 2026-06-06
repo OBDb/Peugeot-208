@@ -1,0 +1,17 @@
+command_id: 7E0.010B
+test_cases:
+- expected_values:
+    MAP: 31
+  response: 7E803410B1F
+- expected_values:
+    MAP: 36
+  response: 7E803410B24
+- expected_values:
+    MAP: 38
+  response: 7E803410B26
+- expected_values:
+    MAP: 54
+  response: 7E803410B36
+- expected_values:
+    MAP: 90
+  response: 7E803410B5A
