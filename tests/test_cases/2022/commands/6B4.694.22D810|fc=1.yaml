@@ -1,0 +1,11 @@
+command_id: 6B4.694.22D810|fc=1
+test_cases:
+- expected_values:
+    208_HVBAT_SOC_RAW: 30.77148
+  response: 6940562D8103D8B
+- expected_values:
+    208_HVBAT_SOC_RAW: 31.06445
+  response: 6940562D8103E21
+- expected_values:
+    208_HVBAT_SOC_RAW: 32.01172
+  response: 6940562D8104006

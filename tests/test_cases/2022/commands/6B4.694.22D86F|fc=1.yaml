@@ -1,0 +1,11 @@
+command_id: 6B4.694.22D86F|fc=1
+test_cases:
+- expected_values:
+    208_HVBAT_MIN_VOLT: 3524
+  response: 6940562D86F0DC4
+- expected_values:
+    208_HVBAT_MIN_VOLT: 3574
+  response: 6940562D86F0DF6
+- expected_values:
+    208_HVBAT_MIN_VOLT: 3582
+  response: 6940562D86F0DFE

@@ -1,0 +1,11 @@
+command_id: 6A2.682.22D8E1|fc=1
+test_cases:
+- expected_values:
+    208_ON_BOARD_CHARGER_T: 28
+  response: 6820562D8E1001C
+- expected_values:
+    208_ON_BOARD_CHARGER_T: 29
+  response: 6820562D8E1001D
+- expected_values:
+    208_ON_BOARD_CHARGER_T: 31
+  response: 6820562D8E1001F

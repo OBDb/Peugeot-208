@@ -1,0 +1,5 @@
+command_id: 6A6.686.22D407|fc=1
+test_cases:
+- expected_values:
+    208_ACCEL_PEDAL_POS: 0
+  response: 6860462D40700

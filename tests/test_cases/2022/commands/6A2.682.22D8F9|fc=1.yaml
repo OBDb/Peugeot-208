@@ -1,0 +1,14 @@
+command_id: 6A2.682.22D8F9|fc=1
+test_cases:
+- expected_values:
+    208_TRACTION_CIRCUIT_ECT: 28.7
+  response: 6820562D8F9011F
+- expected_values:
+    208_TRACTION_CIRCUIT_ECT: 30
+  response: 6820562D8F9012C
+- expected_values:
+    208_TRACTION_CIRCUIT_ECT: 30.1
+  response: 6820562D8F9012D
+- expected_values:
+    208_TRACTION_CIRCUIT_ECT: 30.7
+  response: 6820562D8F90133

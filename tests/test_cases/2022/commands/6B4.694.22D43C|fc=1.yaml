@@ -1,0 +1,5 @@
+command_id: 6B4.694.22D43C|fc=1
+test_cases:
+- expected_values:
+    208_LOWEST_V_CELL_NUMBER: 17
+  response: 6940462D43C10

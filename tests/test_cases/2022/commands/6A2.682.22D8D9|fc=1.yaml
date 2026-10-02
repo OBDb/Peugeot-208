@@ -1,0 +1,14 @@
+command_id: 6A2.682.22D8D9|fc=1
+test_cases:
+- expected_values:
+    208_DRIVE_MOTOR_POWER: 0
+  response: 6820562D8D90000
+- expected_values:
+    208_DRIVE_MOTOR_POWER: 1800
+  response: 6820562D8D90012
+- expected_values:
+    208_DRIVE_MOTOR_POWER: 11900
+  response: 6820562D8D90077
+- expected_values:
+    208_DRIVE_MOTOR_POWER: -9000
+  response: 6820562D8D9FFA6

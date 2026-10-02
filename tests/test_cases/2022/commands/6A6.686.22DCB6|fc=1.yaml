@@ -1,0 +1,17 @@
+command_id: 6A6.686.22DCB6|fc=1
+test_cases:
+- expected_values:
+    208_ELEC_MACHINE_TQ: -1638
+  response: 6860562DCB60000
+- expected_values:
+    208_ELEC_MACHINE_TQ: -1631.3
+  response: 6860562DCB60046
+- expected_values:
+    208_ELEC_MACHINE_TQ: 4707.3
+  response: 6860562DCB6F7E0
+- expected_values:
+    208_ELEC_MACHINE_TQ: 4857.6
+  response: 6860562DCB6FDBF
+- expected_values:
+    208_ELEC_MACHINE_TQ: 4911.7
+  response: 6860562DCB6FFDC

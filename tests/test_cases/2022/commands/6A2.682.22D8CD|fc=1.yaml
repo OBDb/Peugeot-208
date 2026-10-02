@@ -1,0 +1,14 @@
+command_id: 6A2.682.22D8CD|fc=1
+test_cases:
+- expected_values:
+    208_DRIVE_MOTOR_STATOR_T: 22
+  response: 6820562D8CD0016
+- expected_values:
+    208_DRIVE_MOTOR_STATOR_T: 26
+  response: 6820562D8CD001A
+- expected_values:
+    208_DRIVE_MOTOR_STATOR_T: 30
+  response: 6820562D8CD001E
+- expected_values:
+    208_DRIVE_MOTOR_STATOR_T: 33
+  response: 6820562D8CD0021
