@@ -1,0 +1,5 @@
+command_id: 6A2.682.22D496|fc=1
+test_cases:
+- expected_values:
+    208_SERVICE_BAT_T: 18
+  response: 6820562D4960024

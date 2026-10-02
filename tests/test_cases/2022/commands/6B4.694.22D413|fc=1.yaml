@@ -1,0 +1,11 @@
+command_id: 6B4.694.22D413|fc=1
+test_cases:
+- expected_values:
+    208_MIN_CELL_CAP: 29.5
+  response: 6940562D4133BE0
+- expected_values:
+    208_MIN_CELL_CAP: 30
+  response: 6940562D4133C6A
+- expected_values:
+    208_MIN_CELL_CAP: 30.5
+  response: 6940562D4133D39

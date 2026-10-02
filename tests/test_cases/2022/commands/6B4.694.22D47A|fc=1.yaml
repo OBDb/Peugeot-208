@@ -1,0 +1,11 @@
+command_id: 6B4.694.22D47A|fc=1
+test_cases:
+- expected_values:
+    208_BAT_INSULATION_RES: 6540
+  response: 6940762D47A0000198C
+- expected_values:
+    208_BAT_INSULATION_RES: 6990
+  response: 6940762D47A00001B4E
+- expected_values:
+    208_BAT_INSULATION_RES: 7633
+  response: 6940762D47A00001DD1

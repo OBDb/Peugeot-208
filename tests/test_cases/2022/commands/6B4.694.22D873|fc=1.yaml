@@ -1,0 +1,11 @@
+command_id: 6B4.694.22D873|fc=1
+test_cases:
+- expected_values:
+    208_MAX_POWER_BAT_CAN_PROVIDE_10: 139.38876
+  response: 6940762D87300013FB7
+- expected_values:
+    208_MAX_POWER_BAT_CAN_PROVIDE_10: 139.64656
+  response: 6940762D87300013FD8
+- expected_values:
+    208_MAX_POWER_BAT_CAN_PROVIDE_10: 140.06841
+  response: 6940762D8730001400E

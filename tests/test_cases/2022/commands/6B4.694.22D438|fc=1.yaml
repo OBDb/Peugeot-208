@@ -1,0 +1,11 @@
+command_id: 6B4.694.22D438|fc=1
+test_cases:
+- expected_values:
+    208_CELL_V_SUMM: 386
+  response: 6940562D4381820
+- expected_values:
+    208_CELL_V_SUMM: 387.25
+  response: 6940562D4381834
+- expected_values:
+    208_CELL_V_SUMM: 387.375
+  response: 6940562D4381836

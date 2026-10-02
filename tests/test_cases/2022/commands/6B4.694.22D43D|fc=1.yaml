@@ -1,0 +1,11 @@
+command_id: 6B4.694.22D43D|fc=1
+test_cases:
+- expected_values:
+    208_AVG_CELL_V: 3.519
+  response: 6940562D43D0DBF
+- expected_values:
+    208_AVG_CELL_V: 3.581
+  response: 6940562D43D0DFD
+- expected_values:
+    208_AVG_CELL_V: 3.588
+  response: 6940562D43D0E04

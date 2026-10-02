@@ -1,0 +1,11 @@
+command_id: 6B4.694.22D865|fc=1
+test_cases:
+- expected_values:
+    208_HVBAT_KWH: 12.14062
+  response: 6940562D8650309
+- expected_values:
+    208_HVBAT_KWH: 12.25
+  response: 6940562D8650310
+- expected_values:
+    208_HVBAT_KWH: 12.4375
+  response: 6940562D865031C

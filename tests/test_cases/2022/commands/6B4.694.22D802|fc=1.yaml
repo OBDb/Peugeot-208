@@ -1,0 +1,11 @@
+command_id: 6B4.694.22D802|fc=1
+test_cases:
+- expected_values:
+    208_VSS_6B4: 6.85948
+  response: 6940762D80200001B70
+- expected_values:
+    208_VSS_6B4: 38.03964
+  response: 6940762D80200009828
+- expected_values:
+    208_VSS_6B4: 53.36019
+  response: 6940762D8020000D570

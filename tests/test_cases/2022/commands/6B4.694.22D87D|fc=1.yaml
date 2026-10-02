@@ -1,0 +1,5 @@
+command_id: 6B4.694.22D87D|fc=1
+test_cases:
+- expected_values:
+    208_BAT_MIN_UNIT_T: 16
+  response: 6940462D87D38
