@@ -1,0 +1,5 @@
+command_id: 6B4.694.22D860|fc=1
+test_cases:
+- expected_values:
+    208_HVBAT_SOH: 95.6875
+  response: 6940662D8600105FB

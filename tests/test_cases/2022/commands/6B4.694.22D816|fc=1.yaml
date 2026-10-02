@@ -1,0 +1,11 @@
+command_id: 6B4.694.22D816|fc=1
+test_cases:
+- expected_values:
+    208_BAT_DC_CURRENT: 0.75
+  response: 6940762D81600012C30
+- expected_values:
+    208_BAT_DC_CURRENT: 6.15625
+  response: 6940762D81600012D8A
+- expected_values:
+    208_BAT_DC_CURRENT: 11.79688
+  response: 6940762D81600012EF3

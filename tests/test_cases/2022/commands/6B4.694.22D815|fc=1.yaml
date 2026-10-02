@@ -1,0 +1,11 @@
+command_id: 6B4.694.22D815|fc=1
+test_cases:
+- expected_values:
+    208_HVBAT_VOLT: 386.1875
+  response: 6940562D8151823
+- expected_values:
+    208_HVBAT_VOLT: 387.125
+  response: 6940562D8151832
+- expected_values:
+    208_HVBAT_VOLT: 387.3125
+  response: 6940562D8151835

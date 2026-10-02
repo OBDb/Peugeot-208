@@ -1,0 +1,11 @@
+command_id: 6A2.682.22D434|fc=1
+test_cases:
+- expected_values:
+    208_AAT: 21
+  response: 6820462D43415
+- expected_values:
+    208_AAT: 22
+  response: 6820462D43416
+- expected_values:
+    208_AAT: 23
+  response: 6820462D43417

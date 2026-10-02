@@ -1,0 +1,8 @@
+command_id: 6B4.694.22D817|fc=1
+test_cases:
+- expected_values:
+    208_BAT_MAX_UNIT_T: 17
+  response: 6940462D81739
+- expected_values:
+    208_BAT_MAX_UNIT_T: 18
+  response: 6940462D8173A

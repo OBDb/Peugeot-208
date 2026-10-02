@@ -1,0 +1,8 @@
+command_id: 6A2.682.22D8D6|fc=1
+test_cases:
+- expected_values:
+    208_DRIVE_MOTOR_CLT_T: 25
+  response: 6820562D8D60019
+- expected_values:
+    208_DRIVE_MOTOR_CLT_T: 27
+  response: 6820562D8D6001B

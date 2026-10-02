@@ -1,0 +1,8 @@
+command_id: 6B4.694.22D878|fc=1
+test_cases:
+- expected_values:
+    208_T_DIFF_HOTEST: 1
+  response: 6940462D87801
+- expected_values:
+    208_T_DIFF_HOTEST: 2
+  response: 6940462D87802
