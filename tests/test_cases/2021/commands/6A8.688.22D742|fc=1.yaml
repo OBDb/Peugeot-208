@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D742|fc=1
+test_cases:
+- expected_values:
+    208_SERVICE_BAT_CHG_ST: 1
+  response: 6880462D74201

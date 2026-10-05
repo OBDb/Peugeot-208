@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D605|fc=1
+test_cases:
+- expected_values:
+    208_TQ_CONV_LOCK_UP_P_VARIATION: 100
+  response: 6890462D6050A
+- expected_values:
+    208_TQ_CONV_LOCK_UP_P_VARIATION: 510
+  response: 6890462D60533

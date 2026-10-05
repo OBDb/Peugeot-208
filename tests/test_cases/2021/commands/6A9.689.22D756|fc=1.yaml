@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D756|fc=1
+test_cases:
+- expected_values:
+    208_NUM_SHIFT_SOLENOID_OPERATED: 2715351
+  response: 6890762D75600296ED7
+- expected_values:
+    208_NUM_SHIFT_SOLENOID_OPERATED: 2715379
+  response: 6890762D75600296EF3

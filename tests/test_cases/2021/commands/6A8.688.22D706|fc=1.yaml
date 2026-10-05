@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D706|fc=1
+test_cases:
+- expected_values:
+    208_STOP_ALLOWED_ESP: 1
+  response: 6880462D70601

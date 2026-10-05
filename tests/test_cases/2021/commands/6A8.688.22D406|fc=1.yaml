@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D406|fc=1
+test_cases:
+- expected_values:
+    208_ACCEL_PEDAL_SIG_2_V: 0.0086
+  response: 6880562D406002B
+- expected_values:
+    208_ACCEL_PEDAL_SIG_2_V: 0.0088
+  response: 6880562D406002C

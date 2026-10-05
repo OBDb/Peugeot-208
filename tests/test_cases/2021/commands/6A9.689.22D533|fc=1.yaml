@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D533|fc=1
+test_cases:
+- expected_values:
+    208_AVG_SPD_FRONT_WHEELS: 5.6
+  response: 6890562D5330230
+- expected_values:
+    208_AVG_SPD_FRONT_WHEELS: 18.61
+  response: 6890562D5330745

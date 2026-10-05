@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D551|fc=1
+test_cases:
+- expected_values:
+    208_COMPUTER_POWER_SUP_V: 13.1
+  response: 6890462D55183
+- expected_values:
+    208_COMPUTER_POWER_SUP_V: 13.8
+  response: 6890462D5518A

@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D506|fc=1
+test_cases:
+- expected_values:
+    208_MAX_ALLOWABLE_TQ: 408
+  response: 6890462D506FE

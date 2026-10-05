@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D746|fc=1
+test_cases:
+- expected_values:
+    208_NUM_ACTIVATIONS_TQ: 710417
+  response: 6890762D746000AD711
+- expected_values:
+    208_NUM_ACTIVATIONS_TQ: 710425
+  response: 6890762D746000AD719

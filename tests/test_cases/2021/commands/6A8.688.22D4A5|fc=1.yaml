@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D4A5|fc=1
+test_cases:
+- expected_values:
+    208_ALTERNATOR_LOAD: 42
+  response: 6880462D4A52A
+- expected_values:
+    208_ALTERNATOR_LOAD: 74
+  response: 6880462D4A54A

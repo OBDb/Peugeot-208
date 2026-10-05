@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D514|fc=1
+test_cases:
+- expected_values:
+    208_SECONDARY_BRAKE: 0
+  response: 6890462D51400
+- expected_values:
+    208_SECONDARY_BRAKE: 1
+  response: 6890462D51401

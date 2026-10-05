@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D802|fc=1
+test_cases:
+- expected_values:
+    208_ODO_6A9: 95530
+  response: 6890662D80201752A

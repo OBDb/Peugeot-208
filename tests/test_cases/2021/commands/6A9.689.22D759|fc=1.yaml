@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D759|fc=1
+test_cases:
+- expected_values:
+    208_NUM_ACTIVATIONS_C4: 2439917
+  response: 6890762D75900253AED
+- expected_values:
+    208_NUM_ACTIVATIONS_C4: 2439929
+  response: 6890762D75900253AF9

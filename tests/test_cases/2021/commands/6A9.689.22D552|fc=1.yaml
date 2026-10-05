@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D552|fc=1
+test_cases:
+- expected_values:
+    208_AAT_6A9: 27.5
+  response: 6890462D55287

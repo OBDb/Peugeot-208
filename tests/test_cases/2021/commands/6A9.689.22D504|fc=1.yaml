@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D504|fc=1
+test_cases:
+- expected_values:
+    208_TQ_CONV_STAT: 0
+  response: 6890462D50400
+- expected_values:
+    208_TQ_CONV_STAT: 2
+  response: 6890462D50402

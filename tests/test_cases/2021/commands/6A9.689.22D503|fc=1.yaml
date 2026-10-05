@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D503|fc=1
+test_cases:
+- expected_values:
+    208_SPORT_MODE_CONTACTOR: 0
+  response: 6890462D50300

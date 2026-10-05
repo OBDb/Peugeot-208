@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D553|fc=1
+test_cases:
+- expected_values:
+    208_ENG_OP_MODE: 860
+  response: 6890562D5531AE0
+- expected_values:
+    208_ENG_OP_MODE: 1540
+  response: 6890562D5533020

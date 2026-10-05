@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D623|fc=1
+test_cases:
+- expected_values:
+    208_MEAS_CURRENT_P_B2: 100
+  response: 6890462D6230A
+- expected_values:
+    208_MEAS_CURRENT_P_B2: 450
+  response: 6890462D6232D

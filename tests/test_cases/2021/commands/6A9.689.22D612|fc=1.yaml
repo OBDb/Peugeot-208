@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D612|fc=1
+test_cases:
+- expected_values:
+    208_CTRL_CURRENT_P_C2: 100
+  response: 6890462D6120A

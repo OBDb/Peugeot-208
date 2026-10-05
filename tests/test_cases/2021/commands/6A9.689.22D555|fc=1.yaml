@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D555|fc=1
+test_cases:
+- expected_values:
+    208_ECT_6A9: 93
+  response: 6890462D55585

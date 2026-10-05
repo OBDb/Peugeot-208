@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D496|fc=1
+test_cases:
+- expected_values:
+    208_SERVICE_BAT_T_6A8: 23
+  response: 6880562D496002E
+- expected_values:
+    208_SERVICE_BAT_T_6A8: 24
+  response: 6880562D4960030

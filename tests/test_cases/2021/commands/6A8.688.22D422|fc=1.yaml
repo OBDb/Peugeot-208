@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D422|fc=1
+test_cases:
+- expected_values:
+    208_ENG_CTRL_COMPUTER_V: 13.04
+  response: 6880562D4220518
+- expected_values:
+    208_ENG_CTRL_COMPUTER_V: 13.56
+  response: 6880562D422054C

@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D429|fc=1
+test_cases:
+- expected_values:
+    208_OIL_P: 18.141
+  response: 6880562D42946DD
+- expected_values:
+    208_OIL_P: 19.888
+  response: 6880562D4294DB0

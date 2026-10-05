@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D655|fc=1
+test_cases:
+- expected_values:
+    208_TQ_CONV_SLIP_MODE: 0
+  response: 6890462D6557F
+- expected_values:
+    208_TQ_CONV_SLIP_MODE: 2944
+  response: 6890462D655AD

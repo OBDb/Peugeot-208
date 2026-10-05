@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D653|fc=1
+test_cases:
+- expected_values:
+    208_AUTOMATIC_TRANS_OUTPUT_SHFT_MODE: -384
+  response: 6890562D6530079
+- expected_values:
+    208_AUTOMATIC_TRANS_OUTPUT_SHFT_MODE: 21632
+  response: 6890562D65301D1

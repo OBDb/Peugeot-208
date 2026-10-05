@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D652|fc=1
+test_cases:
+- expected_values:
+    208_AUTOMATIC_TRANS_OUTPUT: 55
+  response: 6890562D6520037
+- expected_values:
+    208_AUTOMATIC_TRANS_OUTPUT: 513
+  response: 6890562D6520201

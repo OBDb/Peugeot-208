@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D414|fc=1
+test_cases:
+- expected_values:
+    208_AAT_6A8: 27
+  response: 6880562D414001B

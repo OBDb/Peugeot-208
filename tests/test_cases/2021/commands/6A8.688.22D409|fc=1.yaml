@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D409|fc=1
+test_cases:
+- expected_values:
+    208_CALC_GEAR_GEARBOX: 2
+  response: 6880462D40902
+- expected_values:
+    208_CALC_GEAR_GEARBOX: 7
+  response: 6880462D40907

@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D4E2|fc=1
+test_cases:
+- expected_values:
+    208_ESTIMATED_TQ: 10.375
+  response: 6880562D4E200A6
+- expected_values:
+    208_ESTIMATED_TQ: 12.125
+  response: 6880562D4E200C2

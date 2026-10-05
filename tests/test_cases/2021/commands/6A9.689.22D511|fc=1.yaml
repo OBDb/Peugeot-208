@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D511|fc=1
+test_cases:
+- expected_values:
+    208_REQ_TURN_ON_ENG: 0
+  response: 6890462D51100

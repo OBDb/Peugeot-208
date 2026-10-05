@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D70E|fc=1
+test_cases:
+- expected_values:
+    208_BRAKE_CIRCUIT_P: 0
+  response: 6890562D70E0226
+- expected_values:
+    208_BRAKE_CIRCUIT_P: 4
+  response: 6890562D70E024E
