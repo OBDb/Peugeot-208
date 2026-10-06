@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D72A|fc=1
+test_cases:
+- expected_values:
+    208_STARTER_CTRL: 1
+  response: 6880462D72A01

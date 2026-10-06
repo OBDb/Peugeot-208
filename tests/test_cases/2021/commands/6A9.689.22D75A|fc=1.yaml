@@ -1,0 +1,29 @@
+command_id: 6A9.689.22D75A|fc=1
+test_cases:
+- expected_values:
+    208_NUM_ACTIVATIONS_B2: 87875
+  response: 6890762D75A00015743
+- expected_values:
+    208_NUM_ACTIVATIONS_B2: 87876
+  response: 6890762D75A00015744
+- expected_values:
+    208_NUM_ACTIVATIONS_B2: 87937
+  response: 6890762D75A00015781
+- expected_values:
+    208_NUM_ACTIVATIONS_B2: 87947
+  response: 6890762D75A0001578B
+- expected_values:
+    208_NUM_ACTIVATIONS_B2: 87956
+  response: 6890762D75A00015794
+- expected_values:
+    208_NUM_ACTIVATIONS_B2: 87964
+  response: 6890762D75A0001579C
+- expected_values:
+    208_NUM_ACTIVATIONS_B2: 87970
+  response: 6890762D75A000157A2
+- expected_values:
+    208_NUM_ACTIVATIONS_B2: 87972
+  response: 6890762D75A000157A4
+- expected_values:
+    208_NUM_ACTIVATIONS_B2: 87973
+  response: 6890762D75A000157A5

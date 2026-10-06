@@ -1,0 +1,11 @@
+command_id: 6A9.689.22D757|fc=1
+test_cases:
+- expected_values:
+    208_NUM_SHIFT_SOLENOID_P: 198775
+  response: 6890762D75700030877
+- expected_values:
+    208_NUM_SHIFT_SOLENOID_P: 198777
+  response: 6890762D75700030879
+- expected_values:
+    208_NUM_SHIFT_SOLENOID_P: 198800
+  response: 6890762D75700030890

@@ -1,0 +1,29 @@
+command_id: 6A9.689.22D651|fc=1
+test_cases:
+- expected_values:
+    208_AUTOMATIC_TRANS_INPUT_SHFT_MODE: 268
+  response: 6890562D6510086
+- expected_values:
+    208_AUTOMATIC_TRANS_INPUT_SHFT_MODE: 1844
+  response: 6890562D651039A
+- expected_values:
+    208_AUTOMATIC_TRANS_INPUT_SHFT_MODE: 1978
+  response: 6890562D65103DD
+- expected_values:
+    208_AUTOMATIC_TRANS_INPUT_SHFT_MODE: 2216
+  response: 6890562D6510454
+- expected_values:
+    208_AUTOMATIC_TRANS_INPUT_SHFT_MODE: 2546
+  response: 6890562D65104F9
+- expected_values:
+    208_AUTOMATIC_TRANS_INPUT_SHFT_MODE: 2548
+  response: 6890562D65104FA
+- expected_values:
+    208_AUTOMATIC_TRANS_INPUT_SHFT_MODE: 2654
+  response: 6890562D651052F
+- expected_values:
+    208_AUTOMATIC_TRANS_INPUT_SHFT_MODE: 2712
+  response: 6890562D651054C
+- expected_values:
+    208_AUTOMATIC_TRANS_INPUT_SHFT_MODE: 2754
+  response: 6890562D6510561

@@ -1,0 +1,26 @@
+command_id: 6A9.689.22D505|fc=1
+test_cases:
+- expected_values:
+    208_ACCEL_PEDAL_POS_6A9: 0
+  response: 6890462D50500
+- expected_values:
+    208_ACCEL_PEDAL_POS_6A9: 16.5
+  response: 6890462D50521
+- expected_values:
+    208_ACCEL_PEDAL_POS_6A9: 18
+  response: 6890462D50524
+- expected_values:
+    208_ACCEL_PEDAL_POS_6A9: 18.5
+  response: 6890462D50525
+- expected_values:
+    208_ACCEL_PEDAL_POS_6A9: 19.5
+  response: 6890462D50527
+- expected_values:
+    208_ACCEL_PEDAL_POS_6A9: 20
+  response: 6890462D50528
+- expected_values:
+    208_ACCEL_PEDAL_POS_6A9: 24
+  response: 6890462D50530
+- expected_values:
+    208_ACCEL_PEDAL_POS_6A9: 27
+  response: 6890462D50536

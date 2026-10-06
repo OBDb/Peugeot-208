@@ -1,0 +1,17 @@
+command_id: 6A8.688.22D467|fc=1
+test_cases:
+- expected_values:
+    208_SERVICE_BAT_CHG_STAT: 87.875
+  response: 6880562D467057E
+- expected_values:
+    208_SERVICE_BAT_CHG_STAT: 88
+  response: 6880562D4670580
+- expected_values:
+    208_SERVICE_BAT_CHG_STAT: 90.75
+  response: 6880562D46705AC
+- expected_values:
+    208_SERVICE_BAT_CHG_STAT: 90.875
+  response: 6880562D46705AE
+- expected_values:
+    208_SERVICE_BAT_CHG_STAT: 91
+  response: 6880562D46705B0

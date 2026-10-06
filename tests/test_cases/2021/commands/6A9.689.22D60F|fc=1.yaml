@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D60F|fc=1
+test_cases:
+- expected_values:
+    208_SHIFT_SOLENOID_MEAS_CURRENT_SC4: 10
+  response: 6890462D60F01

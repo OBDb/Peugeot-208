@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D672|fc=1
+test_cases:
+- expected_values:
+    208_CLU_RELEASE_ST_STOP: 2
+  response: 6890462D67202

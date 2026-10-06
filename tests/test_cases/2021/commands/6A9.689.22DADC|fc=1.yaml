@@ -1,0 +1,7 @@
+command_id: 6A9.689.22DADC|fc=1
+test_cases:
+- expected_values:
+    208_ANTI_START: 4
+    208_PROBLEMS_DETECTED_WHILE: 0
+    208_ST_LOCK_UNLOCK_CTRL: 0
+  response: 6890762DADC00040001

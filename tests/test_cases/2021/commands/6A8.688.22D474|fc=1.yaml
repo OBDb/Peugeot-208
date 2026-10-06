@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D474|fc=1
+test_cases:
+- expected_values:
+    208_ABS_EKS_PROCESS_ADJ: 0
+  response: 6880462D47400

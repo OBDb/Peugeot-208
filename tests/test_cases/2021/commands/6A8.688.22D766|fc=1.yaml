@@ -1,0 +1,32 @@
+command_id: 6A8.688.22D766|fc=1
+test_cases:
+- expected_values:
+    208_SET_V_STORAGE_BAT: 13.3125
+  response: 6880562D76606A8
+- expected_values:
+    208_SET_V_STORAGE_BAT: 14.11719
+  response: 6880562D766070F
+- expected_values:
+    208_SET_V_STORAGE_BAT: 14.125
+  response: 6880562D7660710
+- expected_values:
+    208_SET_V_STORAGE_BAT: 14.14062
+  response: 6880562D7660712
+- expected_values:
+    208_SET_V_STORAGE_BAT: 14.15625
+  response: 6880562D7660714
+- expected_values:
+    208_SET_V_STORAGE_BAT: 14.17969
+  response: 6880562D7660717
+- expected_values:
+    208_SET_V_STORAGE_BAT: 14.21094
+  response: 6880562D766071B
+- expected_values:
+    208_SET_V_STORAGE_BAT: 14.42188
+  response: 6880562D7660736
+- expected_values:
+    208_SET_V_STORAGE_BAT: 14.625
+  response: 6880562D7660750
+- expected_values:
+    208_SET_V_STORAGE_BAT: 14.77344
+  response: 6880562D7660763

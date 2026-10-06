@@ -9,3 +9,18 @@ test_cases:
 - expected_values:
     208_HVBAT_SOC_RAW: 32.01172
   response: 6940562D8104006
+- expected_values:
+    208_HVBAT_SOC_RAW: 78.48828
+  response: 6940562D8109CFA
+- expected_values:
+    208_HVBAT_SOC_RAW: 78.49023
+  response: 6940562D8109CFB
+- expected_values:
+    208_HVBAT_SOC_RAW: 78.56445
+  response: 6940562D8109D21
+- expected_values:
+    208_HVBAT_SOC_RAW: 78.63477
+  response: 6940562D8109D45
+- expected_values:
+    208_HVBAT_SOC_RAW: 78.63672
+  response: 6940562D8109D46

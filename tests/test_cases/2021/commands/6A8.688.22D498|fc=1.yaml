@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D498|fc=1
+test_cases:
+- expected_values:
+    208_MAX_CLU_TRAVEL: 0
+  response: 6880562D4980000

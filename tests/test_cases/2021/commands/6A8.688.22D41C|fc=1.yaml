@@ -1,0 +1,32 @@
+command_id: 6A8.688.22D41C|fc=1
+test_cases:
+- expected_values:
+    208_AC_COMP_CURRENT: 450
+  response: 6880462D41C12
+- expected_values:
+    208_AC_COMP_CURRENT: 500
+  response: 6880462D41C14
+- expected_values:
+    208_AC_COMP_CURRENT: 600
+  response: 6880462D41C18
+- expected_values:
+    208_AC_COMP_CURRENT: 725
+  response: 6880462D41C1D
+- expected_values:
+    208_AC_COMP_CURRENT: 900
+  response: 6880462D41C24
+- expected_values:
+    208_AC_COMP_CURRENT: 950
+  response: 6880462D41C26
+- expected_values:
+    208_AC_COMP_CURRENT: 975
+  response: 6880462D41C27
+- expected_values:
+    208_AC_COMP_CURRENT: 1175
+  response: 6880462D41C2F
+- expected_values:
+    208_AC_COMP_CURRENT: 1275
+  response: 6880462D41C33
+- expected_values:
+    208_AC_COMP_CURRENT: 1300
+  response: 6880462D41C34

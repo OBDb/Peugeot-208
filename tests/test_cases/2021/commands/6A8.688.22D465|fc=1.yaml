@@ -1,0 +1,17 @@
+command_id: 6A8.688.22D465|fc=1
+test_cases:
+- expected_values:
+    208_ATMOSPHERIC_P: 12597
+  response: 6880562D4653135
+- expected_values:
+    208_ATMOSPHERIC_P: 12601
+  response: 6880562D4653139
+- expected_values:
+    208_ATMOSPHERIC_P: 12616
+  response: 6880562D4653148
+- expected_values:
+    208_ATMOSPHERIC_P: 12620
+  response: 6880562D465314C
+- expected_values:
+    208_ATMOSPHERIC_P: 12650
+  response: 6880562D465316A

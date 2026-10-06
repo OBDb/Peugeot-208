@@ -1,0 +1,32 @@
+command_id: 6A8.688.22D4E2|fc=1
+test_cases:
+- expected_values:
+    208_ESTIMATED_TQ: 10.375
+  response: 6880562D4E200A6
+- expected_values:
+    208_ESTIMATED_TQ: 12.125
+  response: 6880562D4E200C2
+- expected_values:
+    208_ESTIMATED_TQ: 13.875
+  response: 6880562D4E200DE
+- expected_values:
+    208_ESTIMATED_TQ: 13.9375
+  response: 6880562D4E200DF
+- expected_values:
+    208_ESTIMATED_TQ: 14.125
+  response: 6880562D4E200E2
+- expected_values:
+    208_ESTIMATED_TQ: 14.5
+  response: 6880562D4E200E8
+- expected_values:
+    208_ESTIMATED_TQ: 15.25
+  response: 6880562D4E200F4
+- expected_values:
+    208_ESTIMATED_TQ: 15.5625
+  response: 6880562D4E200F9
+- expected_values:
+    208_ESTIMATED_TQ: 15.75
+  response: 6880562D4E200FC
+- expected_values:
+    208_ESTIMATED_TQ: 16.875
+  response: 6880562D4E2010E

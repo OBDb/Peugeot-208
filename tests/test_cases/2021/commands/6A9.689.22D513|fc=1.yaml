@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D513|fc=1
+test_cases:
+- expected_values:
+    208_MAIN_BRAKE_CONTACTOR: 0
+  response: 6890462D51300
+- expected_values:
+    208_MAIN_BRAKE_CONTACTOR: 1
+  response: 6890462D51301

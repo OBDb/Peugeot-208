@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D4E4|fc=1
+test_cases:
+- expected_values:
+    208_CNT_OCCURRENCE: 0
+  response: 6880562D4E40000

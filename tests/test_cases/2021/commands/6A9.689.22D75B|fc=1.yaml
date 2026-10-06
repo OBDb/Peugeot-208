@@ -1,0 +1,14 @@
+command_id: 6A9.689.22D75B|fc=1
+test_cases:
+- expected_values:
+    208_NUM_ACTIVATIONS_GEAR_7: 26268
+  response: 6890762D75B0000669C
+- expected_values:
+    208_NUM_ACTIVATIONS_GEAR_7: 26275
+  response: 6890762D75B000066A3
+- expected_values:
+    208_NUM_ACTIVATIONS_GEAR_7: 26276
+  response: 6890762D75B000066A4
+- expected_values:
+    208_NUM_ACTIVATIONS_GEAR_7: 26277
+  response: 6890762D75B000066A5

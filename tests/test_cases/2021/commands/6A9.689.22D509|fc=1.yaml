@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D509|fc=1
+test_cases:
+- expected_values:
+    208_DRAIN_TRANS: 0
+  response: 6890462D50900

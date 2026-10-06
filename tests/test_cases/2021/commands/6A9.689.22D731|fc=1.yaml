@@ -1,0 +1,6 @@
+command_id: 6A9.689.22D731|fc=1
+test_cases:
+- expected_values:
+    208_NUM_ACTIVATIONS_CLU_C1: 0
+    208_NUM_ACTIVATIONS_CLU_C2: 0
+  response: 6890562D7310000

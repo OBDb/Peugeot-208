@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D767|fc=1
+test_cases:
+- expected_values:
+    208_START_INHIBIT_CTRL: 0
+  response: 6880462D76700

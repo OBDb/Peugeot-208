@@ -1,0 +1,17 @@
+command_id: 6A9.689.22D606|fc=1
+test_cases:
+- expected_values:
+    208_SLT_LINE_P_VARIATION: 320
+  response: 6890462D60620
+- expected_values:
+    208_SLT_LINE_P_VARIATION: 350
+  response: 6890462D60623
+- expected_values:
+    208_SLT_LINE_P_VARIATION: 360
+  response: 6890462D60624
+- expected_values:
+    208_SLT_LINE_P_VARIATION: 400
+  response: 6890462D60628
+- expected_values:
+    208_SLT_LINE_P_VARIATION: 470
+  response: 6890462D6062F

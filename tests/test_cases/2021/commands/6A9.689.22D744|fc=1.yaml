@@ -1,0 +1,32 @@
+command_id: 6A9.689.22D744|fc=1
+test_cases:
+- expected_values:
+    208_NUM_ACTIVATIONS_CLU_C3: 301861
+  response: 6890762D74400049B25
+- expected_values:
+    208_NUM_ACTIVATIONS_CLU_C3: 301863
+  response: 6890762D74400049B27
+- expected_values:
+    208_NUM_ACTIVATIONS_CLU_C3: 301925
+  response: 6890762D74400049B65
+- expected_values:
+    208_NUM_ACTIVATIONS_CLU_C3: 301932
+  response: 6890762D74400049B6C
+- expected_values:
+    208_NUM_ACTIVATIONS_CLU_C3: 301938
+  response: 6890762D74400049B72
+- expected_values:
+    208_NUM_ACTIVATIONS_CLU_C3: 301940
+  response: 6890762D74400049B74
+- expected_values:
+    208_NUM_ACTIVATIONS_CLU_C3: 301942
+  response: 6890762D74400049B76
+- expected_values:
+    208_NUM_ACTIVATIONS_CLU_C3: 301945
+  response: 6890762D74400049B79
+- expected_values:
+    208_NUM_ACTIVATIONS_CLU_C3: 301947
+  response: 6890762D74400049B7B
+- expected_values:
+    208_NUM_ACTIVATIONS_CLU_C3: 301948
+  response: 6890762D74400049B7C

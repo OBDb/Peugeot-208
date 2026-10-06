@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D61A|fc=1
+test_cases:
+- expected_values:
+    208_AUTOMATIC_TRANS_LUBRICATION: 0
+  response: 6890462D61A00
+- expected_values:
+    208_AUTOMATIC_TRANS_LUBRICATION: 1
+  response: 6890462D61A01

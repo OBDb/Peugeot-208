@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D477|fc=1
+test_cases:
+- expected_values:
+    208_ENG_STOP_TIME: 44547
+  response: 6880762D4770000AE03
+- expected_values:
+    208_ENG_STOP_TIME: 77825
+  response: 6880762D47700013001

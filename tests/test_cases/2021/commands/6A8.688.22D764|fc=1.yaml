@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D764|fc=1
+test_cases:
+- expected_values:
+    208_RETURN_ENG_START: 2
+  response: 6880462D76402

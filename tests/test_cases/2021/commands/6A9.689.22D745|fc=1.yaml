@@ -1,0 +1,20 @@
+command_id: 6A9.689.22D745|fc=1
+test_cases:
+- expected_values:
+    208_NUM_ACTIVATIONS_B1: 196216
+  response: 6890762D7450002FE78
+- expected_values:
+    208_NUM_ACTIVATIONS_B1: 196259
+  response: 6890762D7450002FEA3
+- expected_values:
+    208_NUM_ACTIVATIONS_B1: 196260
+  response: 6890762D7450002FEA4
+- expected_values:
+    208_NUM_ACTIVATIONS_B1: 196262
+  response: 6890762D7450002FEA6
+- expected_values:
+    208_NUM_ACTIVATIONS_B1: 196265
+  response: 6890762D7450002FEA9
+- expected_values:
+    208_NUM_ACTIVATIONS_B1: 196267
+  response: 6890762D7450002FEAB

@@ -1,0 +1,32 @@
+command_id: 6A9.689.22D507|fc=1
+test_cases:
+- expected_values:
+    208_DRIVER_REQ_TQ: -22
+  response: 6890462D50727
+- expected_values:
+    208_DRIVER_REQ_TQ: -20
+  response: 6890462D50728
+- expected_values:
+    208_DRIVER_REQ_TQ: 12
+  response: 6890462D50738
+- expected_values:
+    208_DRIVER_REQ_TQ: 16
+  response: 6890462D5073A
+- expected_values:
+    208_DRIVER_REQ_TQ: 30
+  response: 6890462D50741
+- expected_values:
+    208_DRIVER_REQ_TQ: 48
+  response: 6890462D5074A
+- expected_values:
+    208_DRIVER_REQ_TQ: 62
+  response: 6890462D50751
+- expected_values:
+    208_DRIVER_REQ_TQ: 64
+  response: 6890462D50752
+- expected_values:
+    208_DRIVER_REQ_TQ: 90
+  response: 6890462D5075F
+- expected_values:
+    208_DRIVER_REQ_TQ: 98
+  response: 6890462D50763

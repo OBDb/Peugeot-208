@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D60C|fc=1
+test_cases:
+- expected_values:
+    208_SHIFT_SOLENOID_CTRL: 0
+  response: 6890462D60C00
+- expected_values:
+    208_SHIFT_SOLENOID_CTRL: 10
+  response: 6890462D60C01

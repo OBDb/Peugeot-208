@@ -1,0 +1,32 @@
+command_id: 6A9.689.22D550|fc=1
+test_cases:
+- expected_values:
+    208_AUTOMATIC_ATF_T: 24
+  response: 6890462D55040
+- expected_values:
+    208_AUTOMATIC_ATF_T: 26
+  response: 6890462D55042
+- expected_values:
+    208_AUTOMATIC_ATF_T: 27
+  response: 6890462D55043
+- expected_values:
+    208_AUTOMATIC_ATF_T: 28
+  response: 6890462D55044
+- expected_values:
+    208_AUTOMATIC_ATF_T: 29
+  response: 6890462D55045
+- expected_values:
+    208_AUTOMATIC_ATF_T: 31
+  response: 6890462D55047
+- expected_values:
+    208_AUTOMATIC_ATF_T: 32
+  response: 6890462D55048
+- expected_values:
+    208_AUTOMATIC_ATF_T: 33
+  response: 6890462D55049
+- expected_values:
+    208_AUTOMATIC_ATF_T: 55
+  response: 6890462D5505F
+- expected_values:
+    208_AUTOMATIC_ATF_T: 56
+  response: 6890462D55060

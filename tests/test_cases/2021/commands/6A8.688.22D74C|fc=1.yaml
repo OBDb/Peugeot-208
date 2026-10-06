@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D74C|fc=1
+test_cases:
+- expected_values:
+    208_12V_NETWORK_ALLOWED: 1
+  response: 6880462D74C01

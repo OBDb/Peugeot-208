@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D70B|fc=1
+test_cases:
+- expected_values:
+    208_AUTOMATIC_TRANS_PARK: 0
+  response: 6890462D70B00

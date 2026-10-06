@@ -1,0 +1,26 @@
+command_id: 6A8.688.22D78A|fc=1
+test_cases:
+- expected_values:
+    208_SERVICE_BAT_V: 13.15625
+  response: 6880562D78A0694
+- expected_values:
+    208_SERVICE_BAT_V: 13.91406
+  response: 6880562D78A06F5
+- expected_values:
+    208_SERVICE_BAT_V: 13.92969
+  response: 6880562D78A06F7
+- expected_values:
+    208_SERVICE_BAT_V: 13.94531
+  response: 6880562D78A06F9
+- expected_values:
+    208_SERVICE_BAT_V: 14.03906
+  response: 6880562D78A0705
+- expected_values:
+    208_SERVICE_BAT_V: 14.40625
+  response: 6880562D78A0734
+- expected_values:
+    208_SERVICE_BAT_V: 14.70312
+  response: 6880562D78A075A
+- expected_values:
+    208_SERVICE_BAT_V: 14.94531
+  response: 6880562D78A0779
