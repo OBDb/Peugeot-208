@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D41E|fc=1
+test_cases:
+- expected_values:
+    208_ENG_OIL_LEVEL_SENS_V: 13.6
+  response: 6880562D41E0044
+- expected_values:
+    208_ENG_OIL_LEVEL_SENS_V: 14
+  response: 6880562D41E0046
+- expected_values:
+    208_ENG_OIL_LEVEL_SENS_V: 14.2
+  response: 6880562D41E0047
+- expected_values:
+    208_ENG_OIL_LEVEL_SENS_V: 14.4
+  response: 6880562D41E0048

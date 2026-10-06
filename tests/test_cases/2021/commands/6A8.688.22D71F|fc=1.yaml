@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D71F|fc=1
+test_cases:
+- expected_values:
+    208_STARTER_ACTIVATION: 45794
+  response: 6880762D71F0000B2E2
+- expected_values:
+    208_STARTER_ACTIVATION: 45796
+  response: 6880762D71F0000B2E4

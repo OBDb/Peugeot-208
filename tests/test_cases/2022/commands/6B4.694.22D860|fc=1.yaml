@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     208_HVBAT_SOH: 95.6875
   response: 6940662D8600105FB
+- expected_values:
+    208_HVBAT_SOH: 95.75
+  response: 6940662D8600105FC

@@ -1,0 +1,29 @@
+command_id: 6A8.688.22D4EA|fc=1
+test_cases:
+- expected_values:
+    208_TURBOCHARGER_POS: 4.69
+  response: 6880562D4EA01D5
+- expected_values:
+    208_TURBOCHARGER_POS: 4.82
+  response: 6880562D4EA01E2
+- expected_values:
+    208_TURBOCHARGER_POS: 4.85
+  response: 6880562D4EA01E5
+- expected_values:
+    208_TURBOCHARGER_POS: 5.02
+  response: 6880562D4EA01F6
+- expected_values:
+    208_TURBOCHARGER_POS: 5.06
+  response: 6880562D4EA01FA
+- expected_values:
+    208_TURBOCHARGER_POS: 5.12
+  response: 6880562D4EA0200
+- expected_values:
+    208_TURBOCHARGER_POS: 5.19
+  response: 6880562D4EA0207
+- expected_values:
+    208_TURBOCHARGER_POS: 15.22
+  response: 6880562D4EA05F2
+- expected_values:
+    208_TURBOCHARGER_POS: 79.44
+  response: 6880562D4EA1F08

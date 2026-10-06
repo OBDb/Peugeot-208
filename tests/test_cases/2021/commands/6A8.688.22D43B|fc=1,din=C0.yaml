@@ -1,0 +1,11 @@
+command_id: 6A8.688.22D43B|fc=1,din=C0
+test_cases:
+- expected_values:
+    208_OIL_P_REGULATION: 45.6
+  response: 6880562D43B01C8
+- expected_values:
+    208_OIL_P_REGULATION: 50.9
+  response: 6880562D43B01FD
+- expected_values:
+    208_OIL_P_REGULATION: 51.5
+  response: 6880562D43B0203

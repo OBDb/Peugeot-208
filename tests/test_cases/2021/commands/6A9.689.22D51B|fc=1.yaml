@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D51B|fc=1
+test_cases:
+- expected_values:
+    208_START_PROHIBITION: 1
+  response: 6890462D51B01

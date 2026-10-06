@@ -1,0 +1,8 @@
+command_id: 6A9.689.22D751|fc=1
+test_cases:
+- expected_values:
+    208_NUM_LINE_P_CTRL: 18797
+  response: 6890762D7510000496D
+- expected_values:
+    208_NUM_LINE_P_CTRL: 18803
+  response: 6890762D75100004973

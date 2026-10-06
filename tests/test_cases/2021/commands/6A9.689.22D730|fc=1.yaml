@@ -1,0 +1,6 @@
+command_id: 6A9.689.22D730|fc=1
+test_cases:
+- expected_values:
+    208_ENG_STALLS: 0
+    208_NUM_ENG_STOP: 0
+  response: 6890562D7300000

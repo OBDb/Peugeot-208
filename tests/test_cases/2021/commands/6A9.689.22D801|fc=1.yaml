@@ -1,0 +1,32 @@
+command_id: 6A9.689.22D801|fc=1
+test_cases:
+- expected_values:
+    208_VEH_HOUR_METER: 8888000.4
+  response: 6890762D801054C3384
+- expected_values:
+    208_VEH_HOUR_METER: 8888053.7
+  response: 6890762D801054C3599
+- expected_values:
+    208_VEH_HOUR_METER: 8996559.8
+  response: 6890762D801055CC41E
+- expected_values:
+    208_VEH_HOUR_METER: 8996626.5
+  response: 6890762D801055CC6B9
+- expected_values:
+    208_VEH_HOUR_METER: 8996667.9
+  response: 6890762D801055CC857
+- expected_values:
+    208_VEH_HOUR_METER: 8996696.7
+  response: 6890762D801055CC977
+- expected_values:
+    208_VEH_HOUR_METER: 8996727
+  response: 6890762D801055CCAA6
+- expected_values:
+    208_VEH_HOUR_METER: 8996761
+  response: 6890762D801055CCBFA
+- expected_values:
+    208_VEH_HOUR_METER: 8996790.4
+  response: 6890762D801055CCD20
+- expected_values:
+    208_VEH_HOUR_METER: 8996821.6
+  response: 6890762D801055CCE58

@@ -1,0 +1,32 @@
+command_id: 6A9.689.22D605|fc=1
+test_cases:
+- expected_values:
+    208_TQ_CONV_LOCK_UP_P_VARIATION: 100
+  response: 6890462D6050A
+- expected_values:
+    208_TQ_CONV_LOCK_UP_P_VARIATION: 370
+  response: 6890462D60525
+- expected_values:
+    208_TQ_CONV_LOCK_UP_P_VARIATION: 420
+  response: 6890462D6052A
+- expected_values:
+    208_TQ_CONV_LOCK_UP_P_VARIATION: 510
+  response: 6890462D60533
+- expected_values:
+    208_TQ_CONV_LOCK_UP_P_VARIATION: 570
+  response: 6890462D60539
+- expected_values:
+    208_TQ_CONV_LOCK_UP_P_VARIATION: 620
+  response: 6890462D6053E
+- expected_values:
+    208_TQ_CONV_LOCK_UP_P_VARIATION: 720
+  response: 6890462D60548
+- expected_values:
+    208_TQ_CONV_LOCK_UP_P_VARIATION: 750
+  response: 6890462D6054B
+- expected_values:
+    208_TQ_CONV_LOCK_UP_P_VARIATION: 780
+  response: 6890462D6054E
+- expected_values:
+    208_TQ_CONV_LOCK_UP_P_VARIATION: 830
+  response: 6890462D60553

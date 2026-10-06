@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D4C0|fc=1
+test_cases:
+- expected_values:
+    208_VSS_LIMITER_STAT_LW: 3
+  response: 6880462D4C003

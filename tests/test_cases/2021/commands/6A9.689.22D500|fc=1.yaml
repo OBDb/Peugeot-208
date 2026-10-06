@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D500|fc=1
+test_cases:
+- expected_values:
+    208_GEAR_SHIFT_LEVER_POS_ON: 3
+  response: 6890462D50003

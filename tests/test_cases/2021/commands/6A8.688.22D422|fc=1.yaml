@@ -1,0 +1,29 @@
+command_id: 6A8.688.22D422|fc=1
+test_cases:
+- expected_values:
+    208_ENG_CTRL_COMPUTER_V: 13.04
+  response: 6880562D4220518
+- expected_values:
+    208_ENG_CTRL_COMPUTER_V: 13.56
+  response: 6880562D422054C
+- expected_values:
+    208_ENG_CTRL_COMPUTER_V: 13.89
+  response: 6880562D422056D
+- expected_values:
+    208_ENG_CTRL_COMPUTER_V: 13.91
+  response: 6880562D422056F
+- expected_values:
+    208_ENG_CTRL_COMPUTER_V: 13.94
+  response: 6880562D4220572
+- expected_values:
+    208_ENG_CTRL_COMPUTER_V: 14.01
+  response: 6880562D4220579
+- expected_values:
+    208_ENG_CTRL_COMPUTER_V: 14.03
+  response: 6880562D422057B
+- expected_values:
+    208_ENG_CTRL_COMPUTER_V: 14.93
+  response: 6880562D42205D5
+- expected_values:
+    208_ENG_CTRL_COMPUTER_V: 14.95
+  response: 6880562D42205D7

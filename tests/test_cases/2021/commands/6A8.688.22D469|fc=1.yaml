@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D469|fc=1
+test_cases:
+- expected_values:
+    208_CLU_PEDAL_POS: 90
+  response: 6880562D4690384

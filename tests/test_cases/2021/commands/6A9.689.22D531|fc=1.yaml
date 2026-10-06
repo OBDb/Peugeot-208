@@ -1,0 +1,32 @@
+command_id: 6A9.689.22D531|fc=1
+test_cases:
+- expected_values:
+    208_RL_WHL_SPD: 2.77
+  response: 6890562D5310115
+- expected_values:
+    208_RL_WHL_SPD: 39.54
+  response: 6890562D5310F72
+- expected_values:
+    208_RL_WHL_SPD: 39.92
+  response: 6890562D5310F98
+- expected_values:
+    208_RL_WHL_SPD: 51.88
+  response: 6890562D5311444
+- expected_values:
+    208_RL_WHL_SPD: 60.59
+  response: 6890562D53117AB
+- expected_values:
+    208_RL_WHL_SPD: 75.64
+  response: 6890562D5311D8C
+- expected_values:
+    208_RL_WHL_SPD: 80.56
+  response: 6890562D5311F78
+- expected_values:
+    208_RL_WHL_SPD: 90.26
+  response: 6890562D5312342
+- expected_values:
+    208_RL_WHL_SPD: 98.04
+  response: 6890562D531264C
+- expected_values:
+    208_RL_WHL_SPD: 115.39
+  response: 6890562D5312D13

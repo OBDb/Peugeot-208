@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D723|fc=1
+test_cases:
+- expected_values:
+    208_DRIVER_PRESENCE: 1
+  response: 6880462D72301

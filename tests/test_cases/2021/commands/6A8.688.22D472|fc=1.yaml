@@ -1,0 +1,26 @@
+command_id: 6A8.688.22D472|fc=1
+test_cases:
+- expected_values:
+    208_LOW_P_FUEL_PMP: 257.91999
+  response: 6880562D47264C0
+- expected_values:
+    208_LOW_P_FUEL_PMP: 263.16999
+  response: 6880562D47266CD
+- expected_values:
+    208_LOW_P_FUEL_PMP: 264.21999
+  response: 6880562D4726736
+- expected_values:
+    208_LOW_P_FUEL_PMP: 267.36999
+  response: 6880562D4726871
+- expected_values:
+    208_LOW_P_FUEL_PMP: 277.85999
+  response: 6880562D4726C8A
+- expected_values:
+    208_LOW_P_FUEL_PMP: 282.05999
+  response: 6880562D4726E2E
+- expected_values:
+    208_LOW_P_FUEL_PMP: 283.10999
+  response: 6880562D4726E97
+- expected_values:
+    208_LOW_P_FUEL_PMP: 284.15999
+  response: 6880562D4726F00

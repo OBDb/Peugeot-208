@@ -1,0 +1,17 @@
+command_id: 6A8.688.22D435|fc=1
+test_cases:
+- expected_values:
+    208_COMPUTER_T: 31
+  response: 6880562D435001F
+- expected_values:
+    208_COMPUTER_T: 32
+  response: 6880562D4350020
+- expected_values:
+    208_COMPUTER_T: 33
+  response: 6880562D4350021
+- expected_values:
+    208_COMPUTER_T: 57
+  response: 6880562D4350039
+- expected_values:
+    208_COMPUTER_T: 59
+  response: 6880562D435003B

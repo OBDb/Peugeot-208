@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D61E|fc=1
+test_cases:
+- expected_values:
+    208_CTRL_CURRENT_ELECTROMAGNETIC_VLV_P: 0
+  response: 6890462D61E00

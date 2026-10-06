@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D4CA|fc=1
+test_cases:
+- expected_values:
+    208_DATE: 8887979.1
+  response: 6880762D4CA054C32AF
+- expected_values:
+    208_DATE: 8996545.1
+  response: 6880762D4CA055CC38B
+- expected_values:
+    208_DATE: 8996711.1
+  response: 6880762D4CA055CCA07
+- expected_values:
+    208_DATE: 8996836.1
+  response: 6880762D4CA055CCEE9

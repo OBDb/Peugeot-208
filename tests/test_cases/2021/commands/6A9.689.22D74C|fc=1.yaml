@@ -1,0 +1,17 @@
+command_id: 6A9.689.22D74C|fc=1
+test_cases:
+- expected_values:
+    208_NUM_GEAR_ENGAGEMENTS_6: 59583
+  response: 6890762D74C0000E8BF
+- expected_values:
+    208_NUM_GEAR_ENGAGEMENTS_6: 59600
+  response: 6890762D74C0000E8D0
+- expected_values:
+    208_NUM_GEAR_ENGAGEMENTS_6: 59603
+  response: 6890762D74C0000E8D3
+- expected_values:
+    208_NUM_GEAR_ENGAGEMENTS_6: 59604
+  response: 6890762D74C0000E8D4
+- expected_values:
+    208_NUM_GEAR_ENGAGEMENTS_6: 59605
+  response: 6890762D74C0000E8D5

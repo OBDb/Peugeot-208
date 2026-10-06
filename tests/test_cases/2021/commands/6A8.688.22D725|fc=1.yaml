@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D725|fc=1
+test_cases:
+- expected_values:
+    208_STOP_START_FUNCTION: 9
+  response: 6880462D72509

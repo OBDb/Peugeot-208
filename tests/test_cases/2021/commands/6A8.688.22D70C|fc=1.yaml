@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D70C|fc=1
+test_cases:
+- expected_values:
+    208_RESTART_REQ_SENT: 1
+  response: 6880462D70C01

@@ -1,0 +1,5 @@
+command_id: 6A9.689.22D705|fc=1
+test_cases:
+- expected_values:
+    208_REMOTE_WAKE_UP: 1
+  response: 6890462D70501

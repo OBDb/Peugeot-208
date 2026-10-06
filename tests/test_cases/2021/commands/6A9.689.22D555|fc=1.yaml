@@ -1,0 +1,29 @@
+command_id: 6A9.689.22D555|fc=1
+test_cases:
+- expected_values:
+    208_ECT_6A9: 54
+  response: 6890462D5555E
+- expected_values:
+    208_ECT_6A9: 67
+  response: 6890462D5556B
+- expected_values:
+    208_ECT_6A9: 74
+  response: 6890462D55572
+- expected_values:
+    208_ECT_6A9: 79
+  response: 6890462D55577
+- expected_values:
+    208_ECT_6A9: 88
+  response: 6890462D55580
+- expected_values:
+    208_ECT_6A9: 90
+  response: 6890462D55582
+- expected_values:
+    208_ECT_6A9: 93
+  response: 6890462D55585
+- expected_values:
+    208_ECT_6A9: 96
+  response: 6890462D55588
+- expected_values:
+    208_ECT_6A9: 103
+  response: 6890462D5558F
