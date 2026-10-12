@@ -1,7 +1,7 @@
 { "commands": [
 { "hdr": "6A2", "rax": "682", "fcm1": true, "cmd": {"22": "D402"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
-    {"id": "208_VSS", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+    {"id": "208_VSS", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
 { "hdr": "6A2", "rax": "682", "fcm1": true, "cmd": {"22": "D434"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
@@ -983,7 +983,7 @@
   ]},
 { "hdr": "6A9", "rax": "689", "fcm1": true, "cmd": {"22": "D653"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "208_AUTOMATIC_TRANS_OUTPUT_SHFT_MODE", "path": "Transmission", "fmt": { "len": 16, "max": 4186112, "min": -8128, "mul": 64, "add": -8128, "unit": "rpm" }, "name": "Automatic transmission output shaft mode, calculated"}
+    {"id": "208_AUTOMATIC_TRANS_OUTPUT_SHFT_MODE", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Automatic transmission output shaft mode, calculated"}
   ]},
 { "hdr": "6A9", "rax": "689", "fcm1": true, "cmd": {"22": "D654"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
