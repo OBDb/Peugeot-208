@@ -4,6 +4,7 @@ supported_commands_by_ecu:
   - 6A2.682.22D402|fc=1:208_VSS
   - 6A2.682.22D434|fc=1:208_AAT
   - 6A2.682.22D496|fc=1:208_SERVICE_BAT_T
+  - 6A2.682.22D49C|fc=1:208_ODO_6A2
   - 6A2.682.22D802|fc=1:208_VSS_ESP
   - 6A2.682.22D880|fc=1:208_DRIVE_MOTOR_TQ_DES
   - 6A2.682.22D8CD|fc=1:208_DRIVE_MOTOR_STATOR_T
@@ -86,8 +87,6 @@ supported_commands_by_ecu:
   - 0149:APP_D
   - 014A:APP_E
 unsupported_commands_by_ecu:
-  "6A2":
-  - 6A2.682.22D49C|fc=1:208_ODO_6A2
   "6A8":
   - 6A8.688.22D400|fc=1,din=C0:208_RPM
   - 6A8.688.22D402|fc=1:208_VSS_6A8
