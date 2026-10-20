@@ -1352,7 +1352,7 @@
   "signals": [
     {"id": "208_ODO", "path": "Trips", "fmt": { "len": 32, "max": 4194303, "div": 1024, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "6B4", "rax": "694", "fcm1": true, "dbg": true, "cmd": {"22": "D4B5"}, "freq": 3600,
+{ "hdr": "6B4", "rax": "694", "fcm1": true, "cmd": {"22": "D4B5"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "208_BAT_CELL_001_SOH", "path": "Battery", "fmt": {             "len": 16, "max": 4095.93, "div": 16, "unit": "percent" }, "name": "Battery cell 001 health"},
     {"id": "208_BAT_CELL_002_SOH", "path": "Battery", "fmt": {"bix": 16,   "len": 16, "max": 4095.93, "div": 16, "unit": "percent" }, "name": "Battery cell 002 health"},
