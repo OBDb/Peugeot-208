@@ -265,7 +265,7 @@
   ]},
 { "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D472"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "208_LOW_P_FUEL_PMP", "path": "Fuel", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100.0000022352, "sign": true, "unit": "percent" }, "name": "Low pressure fuel pump actuator duty cycle"}
+    {"id": "208_LOW_P_FUEL_PMP", "path": "Fuel", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Low pressure fuel pump actuator duty cycle raw"}
   ]},
 { "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D474"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
