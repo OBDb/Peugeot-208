@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D42A|fc=1
+test_cases:
+- expected_values:
+    208_FUEL_T: 22.06
+  response: 6880562D42A0B88
+- expected_values:
+    208_FUEL_T: 27.86
+  response: 6880562D42A0BC2

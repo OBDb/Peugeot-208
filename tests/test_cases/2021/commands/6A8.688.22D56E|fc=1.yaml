@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D56E|fc=1
+test_cases:
+- expected_values:
+    208_PROPORTIONAL_CLU: 0
+  response: 6880462D56E00
+- expected_values:
+    208_PROPORTIONAL_CLU: 1
+  response: 6880462D56E01

@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D586|fc=1
+test_cases:
+- expected_values:
+    208_REQ_CONTROLLED: 0
+  response: 6880562D5860000

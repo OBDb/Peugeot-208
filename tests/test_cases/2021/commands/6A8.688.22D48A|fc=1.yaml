@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D48A|fc=1
+test_cases:
+- expected_values:
+    208_TURBOCHARGER_CTRL: 0.10156
+  response: 6880562D48A001A
+- expected_values:
+    208_TURBOCHARGER_CTRL: 2.00781
+  response: 6880562D48A0202
+- expected_values:
+    208_TURBOCHARGER_CTRL: 5.91406
+  response: 6880562D48A05EA
+- expected_values:
+    208_TURBOCHARGER_CTRL: -0.55078
+  response: 6880562D48AFF73

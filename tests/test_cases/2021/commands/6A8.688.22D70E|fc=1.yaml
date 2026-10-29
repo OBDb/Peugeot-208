@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D70E|fc=1
+test_cases:
+- expected_values:
+    208_RESTART_REQ_SENT_SUSPENSION: 0
+  response: 6880462D70E00

@@ -1,0 +1,11 @@
+command_id: 6A8.688.22D54E|fc=1
+test_cases:
+- expected_values:
+    208_AIR_T_AIR_FLOW_METER: 29.95999
+  response: 6880562D54E0BD7
+- expected_values:
+    208_AIR_T_AIR_FLOW_METER: 32.05999
+  response: 6880562D54E0BEC
+- expected_values:
+    208_AIR_T_AIR_FLOW_METER: 34.35999
+  response: 6880562D54E0C03

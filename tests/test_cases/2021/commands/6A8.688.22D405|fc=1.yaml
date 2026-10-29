@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     208_ACCEL_PEDAL_SIG_1_V: 0.048
   response: 6880562D40500F0
+- expected_values:
+    208_ACCEL_PEDAL_SIG_1_V: 0.3966
+  response: 6880562D40507BF

@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D489|fc=1
+test_cases:
+- expected_values:
+    208_AIR_FLOW: 285.2
+  response: 6880562D4890B24
+- expected_values:
+    208_AIR_FLOW: 306.8
+  response: 6880562D4890BFC
+- expected_values:
+    208_AIR_FLOW: 307.2
+  response: 6880562D4890C00
+- expected_values:
+    208_AIR_FLOW: 482
+  response: 6880562D48912D4

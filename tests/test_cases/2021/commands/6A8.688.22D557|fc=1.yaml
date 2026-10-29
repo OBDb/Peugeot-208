@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D557|fc=1
+test_cases:
+- expected_values:
+    208_CAN_VEH_BE_EQUIPPED: 2
+  response: 6880462D55702

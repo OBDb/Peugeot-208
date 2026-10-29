@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D536|fc=1,din=C0
+test_cases:
+- expected_values:
+    208_DIST_NEXT_OIL_CHANGE: 30000
+  response: 6880562D5367530

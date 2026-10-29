@@ -1,0 +1,29 @@
+command_id: 6A8.688.22D4D9|fc=1
+test_cases:
+- expected_values:
+    208_TURBOCHARGER_P_MEAS: 990
+  response: 6880562D4D903DE
+- expected_values:
+    208_TURBOCHARGER_P_MEAS: 995
+  response: 6880562D4D903E3
+- expected_values:
+    208_TURBOCHARGER_P_MEAS: 996
+  response: 6880562D4D903E4
+- expected_values:
+    208_TURBOCHARGER_P_MEAS: 1010
+  response: 6880562D4D903F2
+- expected_values:
+    208_TURBOCHARGER_P_MEAS: 1014
+  response: 6880562D4D903F6
+- expected_values:
+    208_TURBOCHARGER_P_MEAS: 1037
+  response: 6880562D4D9040D
+- expected_values:
+    208_TURBOCHARGER_P_MEAS: 1061
+  response: 6880562D4D90425
+- expected_values:
+    208_TURBOCHARGER_P_MEAS: 1180
+  response: 6880562D4D9049C
+- expected_values:
+    208_TURBOCHARGER_P_MEAS: 1270
+  response: 6880562D4D904F6
