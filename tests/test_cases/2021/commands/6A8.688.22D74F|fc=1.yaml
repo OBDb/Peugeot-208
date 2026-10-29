@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D74F|fc=1
+test_cases:
+- expected_values:
+    208_ENERGY_ACCUMULATOR: 0
+  response: 6880462D74F00
+- expected_values:
+    208_ENERGY_ACCUMULATOR: 1
+  response: 6880462D74F01

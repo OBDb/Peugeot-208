@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D555|fc=1
+test_cases:
+- expected_values:
+    208_EXH_GAS_T_AFTER_PRE: 127.25999
+  response: 6880562D5550FA4
+- expected_values:
+    208_EXH_GAS_T_AFTER_PRE: 163.55999
+  response: 6880562D555110F
+- expected_values:
+    208_EXH_GAS_T_AFTER_PRE: 212.95999
+  response: 6880562D55512FD
+- expected_values:
+    208_EXH_GAS_T_AFTER_PRE: 319.55999
+  response: 6880562D5551727

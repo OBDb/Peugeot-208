@@ -111,7 +111,7 @@
   "signals": [
     {"id": "208_ACCEL_PEDAL_SIG_2_V", "path": "Battery", "fmt": { "len": 16, "max": 6.55, "min": -6.55, "div": 5000.0001263106, "sign": true, "unit": "volts" }, "name": "Accelerator pedal signal 2 voltage"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D407"}, "freq": 0.25,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D407"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_ACCEL_PEDAL_POS_RECALCULATED", "path": "Movement", "fmt": { "len": 16, "max": 511, "div": 128, "unit": "percent" }, "name": "Accelerator pedal position, recalculated"}
   ]},
@@ -127,7 +127,7 @@
   "signals": [
     {"id": "208_ECT_TGT", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Coolant temperature target"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D411"}, "freq": 5,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D411"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_BOOST_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 3003, "min": -3549, "div": 10, "add": -273.1400146484, "sign": true, "unit": "celsius" }, "name": "Boost air temperature"}
   ]},
@@ -139,19 +139,19 @@
   "signals": [
     {"id": "208_AAT_6A8", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Outside air temperature"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D415"}, "freq": 5,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D415"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_ECT_6A8", "path": "Engine", "fmt": { "len": 16, "max": 3003, "min": -3549, "div": 10, "add": -273.1400146484, "sign": true, "unit": "celsius" }, "name": "Coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D416"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D416"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_ADDITIONAL_HEATER_1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Additional heater control 1"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D417"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D417"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_AUXILIARY_HEATER_2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Auxiliary heater 2 control"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D418"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D418"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_CAM_CRANK_POS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Camshaft/crankshaft position synchronization"}
   ]},
@@ -167,7 +167,7 @@
   "signals": [
     {"id": "208_ENG_OIL_LEVEL_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 6553, "min": -6553, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Engine oil level sensor voltage"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D41F"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D41F"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_FUEL_P", "path": "Fuel", "fmt": { "len": 16, "max": 32.76, "min": -32.76, "div": 999.9999525026, "sign": true, "unit": "bars" }, "name": "Fuel pressure"}
   ]},
@@ -179,19 +179,19 @@
   "signals": [
     {"id": "208_ENG_CTRL_COMPUTER_V", "path": "Battery", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100.0000022352, "sign": true, "unit": "volts" }, "name": "Engine control computer supply voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D423"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D423"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_5V_POWER_SUP_ST_1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "5V power supply state number 1"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D424"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D424"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_5V_POWER_SUP_ST_2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "5V power supply state number 2"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D425"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D425"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_5V_POWER_SUP_ST_3", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "5V power supply state number 3"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D426"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D426"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_5V_POWER_SUP_ST_4", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "5V power supply state number 4"}
   ]},
@@ -199,7 +199,7 @@
   "signals": [
     {"id": "208_OIL_P", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "bars" }, "name": "Oil pressure"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D42A"}, "freq": 5,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D42A"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_FUEL_T", "path": "Fuel", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.14, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
@@ -235,7 +235,7 @@
   "signals": [
     {"id": "208_MILEAGE_SINCE_OIL", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Mileage since last oil change"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D446"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D446"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_HIGH_FUEL_P_MEAS", "path": "Fuel", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "bars" }, "name": "High fuel pressure measured"}
   ]},
@@ -287,19 +287,19 @@
   "signals": [
     {"id": "208_STARTER_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "seconds" }, "name": "Starter duty cycle"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D47B"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D47B"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_TURBOCHARGER_TGT_POS", "path": "Battery", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100.0000022352, "sign": true, "unit": "percent" }, "name": "Turbocharger, target position"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D47D"}, "freq": 5,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D47D"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_OIL_T", "path": "Engine", "fmt": { "len": 16, "max": 3003, "min": -3549, "div": 10, "add": -273.1400146484, "sign": true, "unit": "celsius" }, "name": "Oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D489"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D489"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_AIR_FLOW", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "unknown" }, "name": "Air flow"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D48A"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D48A"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_TURBOCHARGER_CTRL", "path": "Battery", "fmt": { "len": 16, "max": 127, "min": -128, "div": 256, "sign": true, "unit": "percent" }, "name": "Turbocharger control duty cycle"}
   ]},
@@ -307,7 +307,7 @@
   "signals": [
     {"id": "208_TURBOCHARGER_FIRST", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Turbocharger first electronic boost"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D48E"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D48E"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_AIR_FLOW_TGT", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "unknown" }, "name": "Air flow target"}
   ]},
@@ -335,7 +335,7 @@
   "signals": [
     {"id": "208_CRANK_SPD_DETERMINED", "path": "Movement", "fmt": { "len": 16, "max": 16383, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Crankshaft speed determined by camshaft sensor"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D49C"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D49C"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_ODO_6A8", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Total mileage", "suggestedMetric": "odometer"}
   ]},
@@ -375,7 +375,7 @@
   "signals": [
     {"id": "208_INDICATED_ENG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 4095, "div": 16, "unit": "newtonMeters" }, "name": "Indicated engine torque"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D4D4"}, "freq": 5,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4D4"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_MIN_BAT_V_STARTUP", "path": "Battery", "fmt": { "len": 16, "max": 655, "min": -655, "div": 50.0000011176, "sign": true, "unit": "volts" }, "name": "Minimum battery voltage at startup"}
   ]},
@@ -383,7 +383,7 @@
   "signals": [
     {"id": "208_CNT_NUM_RE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Computer restarts since memory erase"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D4D9"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4D9"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_TURBOCHARGER_P_MEAS", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Turbocharger pressure measured"}
   ]},
@@ -415,43 +415,43 @@
   "signals": [
     {"id": "208_LOW_P_FUEL_PMP_STAT", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Low pressure fuel pump status"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D52E"}, "freq": 5,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D52E"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_EXH_GAS_T_BEFORE_PRE", "path": "Transmission", "fmt": { "len": 16, "max": 3003, "min": -3549, "div": 10, "add": -273.1400146484, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature before upstream catalytic converter"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D534"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D534"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_VEH_MILEAGE_SINCE", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "kilometers" }, "name": "Vehicle mileage since the last oil change under severe vehicle operating conditions"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"22": "D536"}, "freq": 30,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "cmd": {"22": "D536"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DIST_NEXT_OIL_CHANGE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance to next oil change"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D54E"}, "freq": 5,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D54E"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_AIR_T_AIR_FLOW_METER", "path": "Engine", "fmt": { "len": 16, "max": 3003, "min": -3549, "div": 10, "add": -273.1400146484, "sign": true, "unit": "celsius" }, "name": "Air temperature by air flow meter"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D555"}, "freq": 5,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D555"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_EXH_GAS_T_AFTER_PRE", "path": "Transmission", "fmt": { "len": 16, "max": 3003, "min": -3549, "div": 10, "add": -273.1400146484, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature after upstream catalytic converter"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D556"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D556"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_TURBOCHARGER_P", "path": "Battery", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "unknown" }, "name": "Turbocharger pressure reference"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D557"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D557"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_CAN_VEH_BE_EQUIPPED", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Towing device configured"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D559"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D559"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_PRE_CATALYTIC_CONV", "path": "Transmission", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "percent" }, "name": "Upstream catalytic converter aging"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D56A"}, "freq": 30,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D56A"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_MIN_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Minimum fuel level"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D56E"}, "freq": 0.25,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D56E"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_PROPORTIONAL_CLU", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Proportional clutch pedal sensor"}
   ]},
@@ -459,7 +459,7 @@
   "signals": [
     {"id": "208_COMPOSITION_MIXTURE", "path": "Engine", "fmt": { "len": 16, "max": 1.99, "div": 32786.8858786303, "unit": "scalar" }, "name": "The composition of the mixture is calculated by the oxygen sensor"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D586"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D586"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_REQ_CONTROLLED", "path": "Engine", "fmt": { "len": 16, "max": 399, "min": -399, "div": 81.92000625, "sign": true, "unit": "percent" }, "name": "Requested value controlled thermostat"}
   ]},
@@ -483,7 +483,7 @@
   "signals": [
     {"id": "208_STOP_ALLOWED_ESP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Stop allowed by ESP computer"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D707"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D707"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_STOP_PERMITTED", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Stop permitted by suspension computer"}
   ]},
@@ -507,7 +507,7 @@
   "signals": [
     {"id": "208_ENG_RESTART_REQ_SENT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine restart request sent by ESP computer"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D70E"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D70E"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_RESTART_REQ_SENT_SUSPENSION", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Restart request sent by suspension computer"}
   ]},
@@ -531,7 +531,7 @@
   "signals": [
     {"id": "208_REVERSE_GEN_STAT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Reverse generator status"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D71B"}, "freq": 3600,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D71B"}, "freq": 3600, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_ENG_RESTART_CNT_STOP", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Engine restart counter by stop and start function"}
   ]},
@@ -607,7 +607,7 @@
   "signals": [
     {"id": "208_SET_V_ENERGY_STORAGE", "path": "Battery", "fmt": { "len": 8, "max": 7.96, "div": 32, "unit": "volts" }, "name": "Set voltage of energy storage"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D73B"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D73B"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_VACUUM_CIRCUIT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Vacuum circuit vacuum"}
   ]},
@@ -639,7 +639,7 @@
   "signals": [
     {"id": "208_12V_NETWORK_ALLOWED", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "12V network allowed stop"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D74F"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D74F"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_ENERGY_ACCUMULATOR", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Energy accumulator discharge permission state"}
   ]},

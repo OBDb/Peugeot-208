@@ -1,0 +1,17 @@
+command_id: 6A8.688.22D47B|fc=1
+test_cases:
+- expected_values:
+    208_TURBOCHARGER_TGT_POS: 88.64
+  response: 6880562D47B22A0
+- expected_values:
+    208_TURBOCHARGER_TGT_POS: 88.75
+  response: 6880562D47B22AB
+- expected_values:
+    208_TURBOCHARGER_TGT_POS: 89.78
+  response: 6880562D47B2312
+- expected_values:
+    208_TURBOCHARGER_TGT_POS: 89.92
+  response: 6880562D47B2320
+- expected_values:
+    208_TURBOCHARGER_TGT_POS: 90
+  response: 6880562D47B2328

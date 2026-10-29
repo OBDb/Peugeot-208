@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D4D4|fc=1
+test_cases:
+- expected_values:
+    208_MIN_BAT_V_STARTUP: 9.02
+  response: 6880562D4D401C3
+- expected_values:
+    208_MIN_BAT_V_STARTUP: 9.6
+  response: 6880562D4D401E0
