@@ -89,7 +89,7 @@
   ]},
 { "hdr": "6A6", "rax": "686", "fcm1": true, "cmd": {"22": "DCB6"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
-    {"id": "208_ELEC_MACHINE_TQ", "path": "Engine", "fmt": { "len": 16, "max": 4915, "min": -1638, "div": 10, "add": -1638.3, "unit": "newtonMeters" }, "name": "Electric machine torque"}
+    {"id": "208_ELEC_MACHINE_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Electric machine torque"}
   ]},
 { "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "cmd": {"22": "D400"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
@@ -1473,11 +1473,11 @@
   ]},
 { "hdr": "6B4", "rax": "694", "fcm1": true, "cmd": {"22": "D815"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
-    {"id": "208_HVBAT_VOLT", "path": "Battery", "fmt": { "len": 16, "max": 4095, "div": 16, "unit": "volts" }, "name": "High voltage battery voltage"}
+    {"id": "208_HVBAT_VOLT", "path": "Battery", "fmt": { "len": 16, "max": 4095, "div": 16, "unit": "volts" }, "name": "High voltage battery voltage", "suggestedMetric": "tractionBatteryVoltage"}
   ]},
 { "hdr": "6B4", "rax": "694", "fcm1": true, "cmd": {"22": "D816"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
-    {"id": "208_BAT_DC_CURRENT", "path": "Battery", "fmt": { "len": 32, "max": 67107663, "min": -1200, "div": 64, "add": -1200, "unit": "amps" }, "name": "Battery DC current"}
+    {"id": "208_BAT_DC_CURRENT", "path": "Battery", "fmt": { "len": 32, "max": 67107663, "min": -1200, "div": 64, "add": -1200, "unit": "amps" }, "name": "Battery DC current", "suggestedMetric": "tractionBatteryCurrent"}
   ]},
 { "hdr": "6B4", "rax": "694", "fcm1": true, "cmd": {"22": "D817"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
