@@ -4,5 +4,8 @@ test_cases:
     208_MIN_BAT_V_STARTUP: 9.02
   response: 6880562D4D401C3
 - expected_values:
+    208_MIN_BAT_V_STARTUP: 9.1
+  response: 6880562D4D401C7
+- expected_values:
     208_MIN_BAT_V_STARTUP: 9.6
   response: 6880562D4D401E0

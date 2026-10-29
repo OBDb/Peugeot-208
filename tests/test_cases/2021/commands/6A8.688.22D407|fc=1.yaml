@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     208_ACCEL_PEDAL_POS_RECALCULATED: 4.6875
   response: 6880562D4070258
+- expected_values:
+    208_ACCEL_PEDAL_POS_RECALCULATED: 5.76562
+  response: 6880562D40702E2

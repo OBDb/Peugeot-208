@@ -1,8 +1,8 @@
 command_id: 6A8.688.22D52E|fc=1
 test_cases:
 - expected_values:
-    208_EXH_GAS_T_BEFORE_PRE: 121.25999
-  response: 6880562D52E0F68
+    208_EXH_GAS_T_BEFORE_PRE: 118.75999
+  response: 6880562D52E0F4F
 - expected_values:
     208_EXH_GAS_T_BEFORE_PRE: 136.05999
   response: 6880562D52E0FFC

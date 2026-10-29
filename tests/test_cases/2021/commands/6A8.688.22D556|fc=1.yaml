@@ -7,8 +7,17 @@ test_cases:
     208_TURBOCHARGER_P: 14340
   response: 6880562D5560438
 - expected_values:
+    208_TURBOCHARGER_P: 20484
+  response: 6880562D5560450
+- expected_values:
     208_TURBOCHARGER_P: 21252
   response: 6880562D5560453
 - expected_values:
     208_TURBOCHARGER_P: 30724
   response: 6880562D5560478
+- expected_values:
+    208_TURBOCHARGER_P: 37892
+  response: 6880562D5560494
+- expected_values:
+    208_TURBOCHARGER_P: 30726
+  response: 6880562D5560678

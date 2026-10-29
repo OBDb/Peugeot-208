@@ -1,8 +1,11 @@
 command_id: 6A8.688.22D415|fc=1
 test_cases:
 - expected_values:
-    208_ECT_6A8: 85.95999
-  response: 6880562D4150E07
+    208_ECT_6A8: 75.95999
+  response: 6880562D4150DA3
 - expected_values:
-    208_ECT_6A8: 93.65999
-  response: 6880562D4150E54
+    208_ECT_6A8: 85.15999
+  response: 6880562D4150DFF
+- expected_values:
+    208_ECT_6A8: 85.65999
+  response: 6880562D4150E04

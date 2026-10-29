@@ -4,5 +4,8 @@ test_cases:
     208_BOOST_AIR_T: 28.85999
   response: 6880562D4110BCC
 - expected_values:
+    208_BOOST_AIR_T: 33.75999
+  response: 6880562D4110BFD
+- expected_values:
     208_BOOST_AIR_T: 34.15999
   response: 6880562D4110C01

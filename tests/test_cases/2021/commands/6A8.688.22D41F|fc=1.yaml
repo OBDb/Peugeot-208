@@ -1,8 +1,8 @@
 command_id: 6A8.688.22D41F|fc=1
 test_cases:
 - expected_values:
-    208_FUEL_P: 4.996
-  response: 6880562D41F1384
+    208_FUEL_P: 4.974
+  response: 6880562D41F136E
 - expected_values:
-    208_FUEL_P: 5.074
-  response: 6880562D41F13D2
+    208_FUEL_P: 5.09
+  response: 6880562D41F13E2
