@@ -61,7 +61,7 @@
   ]},
 { "hdr": "6A2", "rax": "682", "fcm1": true, "cmd": {"22": "D8FF"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
-    {"id": "208_AC_HIGH_SIDE_P", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "bars" }, "name": "Air conditioning high side pressure"}
+    {"id": "208_AC_HIGH_SIDE_P", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "bars" }, "name": "Air conditioning high side pressure"}
   ]},
 { "hdr": "6A6", "rax": "686", "fcm1": true, "cmd": {"22": "D407"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [

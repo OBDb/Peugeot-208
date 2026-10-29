@@ -1,11 +1,11 @@
 command_id: 6A2.682.22D8FF|fc=1
 test_cases:
 - expected_values:
-    208_AC_HIGH_SIDE_P: 99.8
+    208_AC_HIGH_SIDE_P: 9.98
   response: 6820562D8FF03E6
 - expected_values:
-    208_AC_HIGH_SIDE_P: 103.9
+    208_AC_HIGH_SIDE_P: 10.39
   response: 6820562D8FF040F
 - expected_values:
-    208_AC_HIGH_SIDE_P: 105.3
+    208_AC_HIGH_SIDE_P: 10.53
   response: 6820562D8FF041D
