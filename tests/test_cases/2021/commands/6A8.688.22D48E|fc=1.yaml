@@ -7,8 +7,8 @@ test_cases:
     208_AIR_FLOW_TGT: 254.4
   response: 6880562D48E09F0
 - expected_values:
-    208_AIR_FLOW_TGT: 287.1
-  response: 6880562D48E0B37
+    208_AIR_FLOW_TGT: 540
+  response: 6880562D48E1518
 - expected_values:
-    208_AIR_FLOW_TGT: 535.1
-  response: 6880562D48E14E7
+    208_AIR_FLOW_TGT: 810
+  response: 6880562D48E1FA4

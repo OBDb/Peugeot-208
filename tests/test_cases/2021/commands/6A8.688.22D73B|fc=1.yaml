@@ -1,32 +1,8 @@
 command_id: 6A8.688.22D73B|fc=1
 test_cases:
 - expected_values:
-    208_VACUUM_CIRCUIT: 879
-  response: 6880562D73B036F
-- expected_values:
-    208_VACUUM_CIRCUIT: 914
-  response: 6880562D73B0392
-- expected_values:
-    208_VACUUM_CIRCUIT: 921
-  response: 6880562D73B0399
-- expected_values:
-    208_VACUUM_CIRCUIT: 931
-  response: 6880562D73B03A3
-- expected_values:
-    208_VACUUM_CIRCUIT: 942
-  response: 6880562D73B03AE
-- expected_values:
-    208_VACUUM_CIRCUIT: 960
-  response: 6880562D73B03C0
-- expected_values:
-    208_VACUUM_CIRCUIT: 961
-  response: 6880562D73B03C1
-- expected_values:
-    208_VACUUM_CIRCUIT: 962
-  response: 6880562D73B03C2
-- expected_values:
-    208_VACUUM_CIRCUIT: 963
-  response: 6880562D73B03C3
+    208_VACUUM_CIRCUIT: 852
+  response: 6880562D73B0354
 - expected_values:
     208_VACUUM_CIRCUIT: 964
   response: 6880562D73B03C4

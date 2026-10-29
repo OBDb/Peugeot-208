@@ -1,11 +1,11 @@
 command_id: 6A8.688.22D400|fc=1,din=C0
 test_cases:
 - expected_values:
-    208_RPM: 818
-  response: 6880562D4000332
+    208_RPM: 748
+  response: 6880562D40002EC
 - expected_values:
-    208_RPM: 2786
-  response: 6880562D4000AE2
+    208_RPM: 750
+  response: 6880562D40002EE
 - expected_values:
     208_RPM: 2818
   response: 6880562D4000B02
