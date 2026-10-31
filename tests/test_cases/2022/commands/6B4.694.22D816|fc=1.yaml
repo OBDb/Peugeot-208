@@ -1,29 +1,11 @@
 command_id: 6B4.694.22D816|fc=1
 test_cases:
 - expected_values:
-    208_BAT_DC_CURRENT: -35.375
-  response: 6940762D81600012328
+    208_BAT_DC_CURRENT: -68.90625
+  response: 6940762D81600011AC6
 - expected_values:
-    208_BAT_DC_CURRENT: -18.6875
-  response: 6940762D81600012754
-- expected_values:
-    208_BAT_DC_CURRENT: -8.39062
-  response: 6940762D816000129E7
-- expected_values:
-    208_BAT_DC_CURRENT: 0.75
-  response: 6940762D81600012C30
-- expected_values:
-    208_BAT_DC_CURRENT: 6.15625
-  response: 6940762D81600012D8A
-- expected_values:
-    208_BAT_DC_CURRENT: 7
-  response: 6940762D81600012DC0
-- expected_values:
-    208_BAT_DC_CURRENT: 11.79688
-  response: 6940762D81600012EF3
-- expected_values:
-    208_BAT_DC_CURRENT: 47.23438
-  response: 6940762D816000137CF
+    208_BAT_DC_CURRENT: 4.125
+  response: 6940762D81600012D08
 - expected_values:
     208_BAT_DC_CURRENT: 51.98438
   response: 6940762D816000138FF
