@@ -4,6 +4,9 @@ test_cases:
     208_ECT_6A8: 13.05999
   response: 6880562D4150B2E
 - expected_values:
+    208_ECT_6A8: 34.15999
+  response: 6880562D4150C01
+- expected_values:
     208_ECT_6A8: 85.15999
   response: 6880562D4150DFF
 - expected_values:

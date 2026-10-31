@@ -4,5 +4,5 @@ test_cases:
     208_ODO_6A8: 105903
   response: 6880762D49C00019DAF
 - expected_values:
-    208_ODO_6A8: 105952
-  response: 6880762D49C00019DE0
+    208_ODO_6A8: 105977
+  response: 6880762D49C00019DF9
