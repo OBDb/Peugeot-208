@@ -4,8 +4,8 @@ test_cases:
     208_BAT_DC_CURRENT: -68.90625
   response: 6940762D81600011AC6
 - expected_values:
-    208_BAT_DC_CURRENT: 4.125
-  response: 6940762D81600012D08
+    208_BAT_DC_CURRENT: -20
+  response: 6940762D81600012700
 - expected_values:
     208_BAT_DC_CURRENT: 51.98438
   response: 6940762D816000138FF
