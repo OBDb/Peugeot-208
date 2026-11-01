@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     208_HVBAT_VOLT: 399.5
   response: 6940562D81518F8
+- expected_values:
+    208_HVBAT_VOLT: 435.75
+  response: 6940562D8151B3C
