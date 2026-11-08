@@ -1,8 +1,8 @@
 command_id: 6A8.688.22D411|fc=1
 test_cases:
 - expected_values:
-    208_BOOST_AIR_T: 28.85999
-  response: 6880562D4110BCC
+    208_BOOST_AIR_T: 22.25999
+  response: 6880562D4110B8A
 - expected_values:
     208_BOOST_AIR_T: 33.75999
   response: 6880562D4110BFD
