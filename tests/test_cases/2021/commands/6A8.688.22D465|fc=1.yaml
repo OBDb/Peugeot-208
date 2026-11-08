@@ -1,6 +1,9 @@
 command_id: 6A8.688.22D465|fc=1
 test_cases:
 - expected_values:
+    208_ATMOSPHERIC_P: 970
+  response: 6880562D46503CA
+- expected_values:
     208_ATMOSPHERIC_P: 12597
   response: 6880562D4653135
 - expected_values:

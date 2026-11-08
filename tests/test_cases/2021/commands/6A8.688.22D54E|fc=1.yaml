@@ -1,8 +1,8 @@
 command_id: 6A8.688.22D54E|fc=1
 test_cases:
 - expected_values:
-    208_AIR_T_AIR_FLOW_METER: 29.95999
-  response: 6880562D54E0BD7
+    208_AIR_T_AIR_FLOW_METER: 19.95999
+  response: 6880562D54E0B73
 - expected_values:
     208_AIR_T_AIR_FLOW_METER: 32.25999
   response: 6880562D54E0BEE

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     208_AUTOMATIC_STOP_ALLOWED_POWER_STEER: 0
   response: 6880462D70500
+- expected_values:
+    208_AUTOMATIC_STOP_ALLOWED_POWER_STEER: 1
+  response: 6880462D70501
