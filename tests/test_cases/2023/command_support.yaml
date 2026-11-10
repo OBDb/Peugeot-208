@@ -1,7 +1,7 @@
 model_year: 2023
 supported_commands_by_ecu:
   "6B4":
-  - 6B4.694.22D410|fc=1:208_HVBAT_SOC
+  - 6B4.694.22D410
   "7DF":
   - 7DF.0104
   - 7DF.0105
@@ -42,10 +42,6 @@ supported_commands_by_ecu:
   - 014A:APP_E
   - 014C:TAC_PCT
   - 014D:MIL_TIME
-  - 014E:CLR_TIME
-  - 014F:MAX_EQ_RAT,MAX_MAP,MAX_O2_CURR,MAX_O2_VOLT
-  - 015E:FUEL_RATE
-  - 019D:FUEL_RATE_ALT,VFUEL_RATE
   - 7E0.010D:VSS
 unsupported_commands_by_ecu:
   "740":
