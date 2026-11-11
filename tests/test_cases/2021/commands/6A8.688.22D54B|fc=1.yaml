@@ -1,0 +1,11 @@
+command_id: 6A8.688.22D54B|fc=1
+test_cases:
+- expected_values:
+    208_DPF_SOOT_CLOSED_LOOP: 0
+  response: 6880562D54B0000
+- expected_values:
+    208_DPF_SOOT_CLOSED_LOOP: 3.24609
+  response: 6880562D54B0CFC
+- expected_values:
+    208_DPF_SOOT_CLOSED_LOOP: 5.37012
+  response: 6880562D54B157B

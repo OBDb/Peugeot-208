@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D54A|fc=1
+test_cases:
+- expected_values:
+    208_DPF_SOOT_OPEN_LOOP: 55.75391
+  response: 6880562D54A04DF
+- expected_values:
+    208_DPF_SOOT_OPEN_LOOP: 62.75391
+  response: 6880562D54A04FB
+- expected_values:
+    208_DPF_SOOT_OPEN_LOOP: 2.77344
+  response: 6880562D54A180B
+- expected_values:
+    208_DPF_SOOT_OPEN_LOOP: 21.77637
+  response: 6880562D54A1B57

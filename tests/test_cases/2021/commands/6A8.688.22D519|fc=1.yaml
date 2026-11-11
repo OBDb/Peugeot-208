@@ -1,0 +1,11 @@
+command_id: 6A8.688.22D519|fc=1
+test_cases:
+- expected_values:
+    208_DPF_DIST_SINCE_REGEN: 0
+  response: 6880562D5190000
+- expected_values:
+    208_DPF_DIST_SINCE_REGEN: 4032.8125
+  response: 6880562D5190DFC
+- expected_values:
+    208_DPF_DIST_SINCE_REGEN: 32.875
+  response: 6880562D5190E02

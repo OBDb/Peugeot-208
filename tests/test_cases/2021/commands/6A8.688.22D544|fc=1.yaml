@@ -1,0 +1,11 @@
+command_id: 6A8.688.22D544|fc=1
+test_cases:
+- expected_values:
+    208_DPF_OUT_P: -12.029
+  response: 6880562D54403D1
+- expected_values:
+    208_DPF_OUT_P: -0.765
+  response: 6880562D54403FD
+- expected_values:
+    208_DPF_OUT_P: 0.004
+  response: 6880562D5440400

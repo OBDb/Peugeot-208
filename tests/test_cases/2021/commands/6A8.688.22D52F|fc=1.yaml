@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D52F|fc=1
+test_cases:
+- expected_values:
+    208_DPF_SOOT_LOAD: 550
+  response: 6880562D52F0016

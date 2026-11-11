@@ -1,0 +1,42 @@
+command_id: 6A8.688.22D526|fc=1
+test_cases:
+- expected_values:
+    208_DPF_ADDITIVE_MASS: 116.00781
+  response: |-
+    688100B62D526013A00
+    6882100013A0000
+- expected_values:
+    208_DPF_ADDITIVE_MASS: 160.00781
+  response: |-
+    688100B62D526015000
+    688210001500000
+- expected_values:
+    208_DPF_ADDITIVE_MASS: 222.00781
+  response: |-
+    688100B62D526016F00
+    6882100016F0000
+- expected_values:
+    208_DPF_ADDITIVE_MASS: 124.03125
+  response: |-
+    688100B62D526043E00
+    688216E043E006E
+- expected_values:
+    208_DPF_ADDITIVE_MASS: 368.03125
+  response: |-
+    688100B62D52604B800
+    68821FE04B800FE
+- expected_values:
+    208_DPF_ADDITIVE_MASS: 354.04688
+  response: |-
+    688100B62D52606B105
+    688216806B10568
+- expected_values:
+    208_DPF_ADDITIVE_MASS: 502.04688
+  response: |-
+    688100B62D52606FB04
+    68821A506FB04A5
+- expected_values:
+    208_DPF_ADDITIVE_MASS: 2.05469
+  response: |-
+    688100B62D526070105
+    688210507010505

@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D531|fc=1
+test_cases:
+- expected_values:
+    208_DPF_DIST_SINCE_REPLACE: 106552
+  response: 6880562D5313407
