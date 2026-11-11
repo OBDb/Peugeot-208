@@ -1,0 +1,11 @@
+command_id: 6A8.688.22D520|fc=1
+test_cases:
+- expected_values:
+    208_DPF_DP: 3
+  response: 6880562D5200003
+- expected_values:
+    208_DPF_DP: 239
+  response: 6880562D52000EF
+- expected_values:
+    208_DPF_DP: 278
+  response: 6880562D5200116

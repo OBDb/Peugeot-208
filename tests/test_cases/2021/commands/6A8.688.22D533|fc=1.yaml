@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D533|fc=1
+test_cases:
+- expected_values:
+    208_DPF_EXH_FLOW: 20654.29974
+  response: 6880562D533005E
+- expected_values:
+    208_DPF_EXH_FLOW: 113598.64859
+  response: 6880562D5330205
+- expected_values:
+    208_DPF_EXH_FLOW: 224340.85147
+  response: 6880562D53303FD
+- expected_values:
+    208_DPF_EXH_FLOW: 462744.2049
+  response: 6880562D533083A

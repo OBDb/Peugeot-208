@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D525|fc=1
+test_cases:
+- expected_values:
+    208_DPF_AVG_DIST_REGEN: 256.6875
+  response: 6880562D5250B10

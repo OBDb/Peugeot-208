@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D54D|fc=1
+test_cases:
+- expected_values:
+    208_DPF_REGEN_CAP_LONG: 35
+  response: 6880462D54D23

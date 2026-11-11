@@ -319,27 +319,27 @@
   "signals": [
     {"id": "208_LOW_P_FUEL_PMP_STAT", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Low pressure fuel pump status"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D518"}, "freq": 5,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D518"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_DP_DEV", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Particulate filter differential pressure sensor deviation from reference"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D519"}, "freq": 30,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D519"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_DIST_SINCE_REGEN", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 4095, "div": 16, "unit": "kilometers" }, "name": "Distance traveled since the last regeneration"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D520"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D520"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_DP", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Particulate filter differential pressure"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D521"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D521"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_REGEN_STAT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Particulate filter regeneration status"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D525"}, "freq": 3600,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D525"}, "freq": 3600, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_AVG_DIST_REGEN", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 4095, "div": 16, "unit": "kilometers" }, "name": "Average distance per regeneration over the last 10"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D526"}, "freq": 30,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D526"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_ADDITIVE_MASS", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 511, "div": 128, "unit": "scalar" }, "name": "Additive mass in the particulate filter, grams"}
   ]},
@@ -347,7 +347,7 @@
   "signals": [
     {"id": "208_DPF_ADDITIVE_MASS_2", "path": "Engine", "fmt": { "len": 16, "max": 2047, "div": 32, "unit": "scalar" }, "name": "Additive mass in the particulate filter, grams, second reading"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D528"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D528"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_REGEN_ENABLE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Particulate filter regeneration enabled"}
   ]},
@@ -355,23 +355,23 @@
   "signals": [
     {"id": "208_EXH_GAS_T_BEFORE_PRE", "path": "Transmission", "fmt": { "len": 16, "max": 3003, "min": -3549, "div": 10, "add": -273.1400146484, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature before upstream catalytic converter"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D52F"}, "freq": 5,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D52F"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_SOOT_LOAD", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 6399, "div": 10.24, "unit": "percent" }, "name": "Particulate filter soot clogging level"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D530"}, "freq": 3600,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D530"}, "freq": 3600, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_DIST_TO_REPLACE", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 524272, "min": -524288, "mul": 16, "sign": true, "unit": "kilometers" }, "name": "Distance remaining before particulate filter replacement"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D531"}, "freq": 3600,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D531"}, "freq": 3600, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_DIST_SINCE_REPLACE", "path": "Engine", "fmt": { "len": 16, "max": 524280, "mul": 8, "unit": "kilometers" }, "name": "Distance since the last particulate filter replacement"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D532"}, "freq": 3600,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D532"}, "freq": 3600, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_THERMAL_AGING", "path": "Engine", "fmt": { "len": 16, "max": 12799, "mul": 25, "div": 128, "unit": "percent" }, "name": "Particulate filter thermal aging"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D533"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D533"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_EXH_FLOW", "path": "Engine", "fmt": { "len": 16, "max": 14399782, "mul": 219.7265930176, "unit": "liters" }, "name": "Exhaust gas flow through the particulate filter"}
   ]},
@@ -383,23 +383,23 @@
   "signals": [
     {"id": "208_DIST_NEXT_OIL_CHANGE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance to next oil change"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D544"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D544"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_OUT_P", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000, "sign": true, "unit": "bars" }, "name": "Exhaust gas pressure at the particulate filter outlet"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D54A"}, "freq": 5,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D54A"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_SOOT_OPEN_LOOP", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 63.99, "div": 1024, "unit": "gramsPerLiter" }, "name": "Particulate filter soot load, open loop estimate"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D54B"}, "freq": 5,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D54B"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_SOOT_CLOSED_LOOP", "path": "Engine", "fmt": { "len": 16, "max": 63.99, "div": 1024, "unit": "gramsPerLiter" }, "name": "Particulate filter soot load, closed loop estimate"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D54C"}, "freq": 30,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D54C"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_REGEN_CAP_SHORT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Short-term regeneration capability"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D54D"}, "freq": 30,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D54D"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "208_DPF_REGEN_CAP_LONG", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Long-term regeneration capability"}
   ]},

@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D54C|fc=1
+test_cases:
+- expected_values:
+    208_DPF_REGEN_CAP_SHORT: 0
+  response: 6880462D54C00
+- expected_values:
+    208_DPF_REGEN_CAP_SHORT: 90
+  response: 6880462D54C5A

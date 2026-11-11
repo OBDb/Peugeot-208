@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D528|fc=1
+test_cases:
+- expected_values:
+    208_DPF_REGEN_ENABLE: 0
+  response: 6880462D52800
+- expected_values:
+    208_DPF_REGEN_ENABLE: 1
+  response: 6880462D52801
