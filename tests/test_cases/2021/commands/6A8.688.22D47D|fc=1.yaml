@@ -7,8 +7,8 @@ test_cases:
     208_OIL_T: 34.05999
   response: 6880562D47D0C00
 - expected_values:
-    208_OIL_T: 85.15999
-  response: 6880562D47D0DFF
+    208_OIL_T: 59.55999
+  response: 6880562D47D0CFF
 - expected_values:
     208_OIL_T: 85.35999
   response: 6880562D47D0E01
