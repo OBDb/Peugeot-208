@@ -7,5 +7,5 @@ test_cases:
     208_VSS_6A8: 49.94531
   response: 6880562D40218F9
 - expected_values:
-    208_VSS_6A8: 110.38281
-  response: 6880562D4023731
+    208_VSS_6A8: 150.75781
+  response: 6880562D4024B61
