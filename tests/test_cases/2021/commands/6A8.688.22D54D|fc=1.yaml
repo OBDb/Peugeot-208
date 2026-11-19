@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     208_DPF_REGEN_CAP_LONG: 35
   response: 6880462D54D23
+- expected_values:
+    208_DPF_REGEN_CAP_LONG: 75
+  response: 6880462D54D4B
